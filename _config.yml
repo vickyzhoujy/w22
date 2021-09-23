@@ -50,6 +50,7 @@ cal_dates: >
     {"label":"Thanksgiving", "date":"2021-11-26" },
     {"label":"F21 instruction ends", "date":"2021-12-03" },
     {"label":"F21 finals start", "date":"2021-12-04" },
+    {"label":"F21 CS16 MIDTERM (2pm-3:15pm)", "date":"2021-10-28" },                      
     {"label":"F21 CS16 FINAL (4pm-7pm)", "date":"2021-12-07" },                      
     {"label":"F21 finals end", "date":"2021-12-10" },                          
     {"label":"F21 qtr ends", "date":"2021-12-10" }                              
