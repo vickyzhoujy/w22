@@ -4,6 +4,12 @@ layout: default
 ready: true
 ---
 
+Information on Office Hours coming soon.
+
+Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
+
+So, ror the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
+
 # Course Staff<a name="staff"></a>
 
 ## Course instructor: Phill Conrad
