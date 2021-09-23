@@ -7,7 +7,7 @@ ready: true
 
 
 <style>
- iframe { width: 100%; height: 1400px; }
+ iframe { width: 100%; height: 800px; }
 </style>
 
 Information on Office Hours coming soon.
