@@ -4,11 +4,21 @@ layout: default
 ready: true
 ---
 
+
+
+<style>
+ iframe { width: 100%; height: 1400px; }
+</style>
+
 Information on Office Hours coming soon.
 
 Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
 
-So, ror the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
+So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
+
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQiMqLoMh9__fAe-xc7XHjFCd1r8ieHVYiBltFrIPGBLOMTFsy97fyc5c4fuZ85E2l7_gcZmPGyvng0/pubhtml?widget=true&amp;headers=false"></iframe>
+
 
 # Course Staff<a name="staff"></a>
 
