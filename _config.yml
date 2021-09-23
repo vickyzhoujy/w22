@@ -1,8 +1,10 @@
+default_branch: main
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme@pcmultlectwithmasterormain
 
 kramdown:
   parse_block_html: false

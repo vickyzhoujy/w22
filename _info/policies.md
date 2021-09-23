@@ -60,22 +60,9 @@ Each student is responsible for knowing and abiding by UCSB's policies on Academ
 * If you are registered for another UCSB course  that overlaps with this one, you MUST HAVE specific written permission from both instructors, or I am within my rights to give you a failing grade on any work you miss as a result, and will NOT make any accommodations for you.  This includes exams.
 <!--* You are permitted one sheet of notes on exams—details later on the syllabus.-->
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
-* On most homework assignments  you may collaborate with at most one other person (who must be named) but the quizzes must be done individually
 * This course moves quickly. So attendance is very important. We'll sometimes cover two or even three chapters in a given week. We need to go at that pace,  because during the last week of the quarter,  you can't really start anything new, because there isn't time to put it into practice with programming assignments. If you don't put it into practice, you aren't very likely to learn it in any way that is going to stick with you, so there isn't much point in just &quot;going through the motions&quot;.
 
 
-
-
-## Exceptions
-
-<p>If you miss a class, you miss the opportunity for the points on that in-class assignment, or homework that was due. Period. </p>
-<p>There is no makeup, except for:</p>
-<ul>
-  <li>excused absences arranged and agreed to by the instructor <strong>in advance</strong>, for official UCSB activities</li>
-  <li>one &quot;sick-day/personal day&quot; per student, per quarter (see below)</li>
-</ul>
-<p>To make up an assignment from a &quot;sick-day/personal-day&quot;, you must within one week of the absence, or 24 hours before the final exam, which ever is earlier, come to office hours (this cannot be done in lab). You may only do this ONCE per quarter.</p>
-<p>In rare cases, if there is a documented family emergency, documented extended illness, documented required court appearance, or other situation beyond the students' control (with documentation) the instructor may grant additional make up days entirely at the instructor's discretion—but this is <strong>not</strong> a guarantee or a right.</p>
 
 ## About pair programming
 
@@ -109,35 +96,19 @@ The partners should make a single joint submission to our autograder (gradescope
 The policy is simple, and is based on the idea that the primary purpose of the deadlines is to allow the TA manage his/her workload. The number of labs in this course requires that he/she not have to do "context switching" between grading different labs. All labs must be graded in one sitting, or he/she just won't be able to keep up with the workload.
 So:
 * If you want your work to be graded without penalty, turn it in on time.
-* All labs have a 24 hours grace period beyond the listed deadline. If you turn in your lab after the grace period has ended, you RISK GETTING A ZERO.
-* We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
+* We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we MAY impose a late penalty.
 * There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
-
 
 
 ## Frequently Asked Questions <a name="faq"></a>
 
-<h3 ><em>Do we need to bring our textbook to lecture? To lab?</em></h3>
-<p> It is generally not necessary to bring the textbook to <em>lectures</em> for CS16. It may be helpful to bring the book to lab though, as it may be a useful reference for working on programming assignments.</p>
-
-<h3 ><em>Are there any extra credit components in this course?</em></h3>
- <p>I offer extra credit to the first person to report typos in the assigned readings from the book, or the homework or lab assignments themselves.  Thus, starting earlier gives you a better chance to be the first one to report errors. There is a special thread on Gradescope for reporting errors—the time it is first reported there is what counts for extra credit (reporting it by email or in person or in class is <em>nice</em>, but does <em>not</em> earn the extra credit.) You can also get extra credit for exceptional participation and dissemination of good information on the class discussion forum (Piazza)</p>
 
 <p >Do we need to bring laptops to class? </p>
-<p >You do not <em>need</em> to bring a laptop to class but you are encouraged to bring your laptop to follow along during live coding sessions. </p>
-<h3 >Are we permitted to use laptops during lecture?</h3>
-<p >Research has shown that the use of electronic devices for purposed othen than note-taking or class related activities hampers the learning of both the student and those sitting close by. Although you are allowed to bring your laptop or mobile device, you may not use it to read email or Facebook, play games, etc. That latter use can be a real distraction to others sitting behind that student, not to mention the distraction to the laptop user herself/himself.</p>
-<p> The instructor holds the right to ask you to leave the class if you fail to comply with the course policy on using devices. If I find that this isn't working out, I reserve the right to change the policy and implement a ban on laptops in lecture (where the only exception would be someone with a medically certified disability that needs the laptop for ADA-compliance.)</p>
-<p >So, you don't want to be &quot;that person&quot; that spoils it for everyone else. If you use a laptop, use it for legit purposes during class time.</p>
-<h3 >What about laptops in lab?</h3>
-<p >Sometimes students want to use their laptops in lab instead of using the Linux computers provided. I would like to strongly discourage this for a variety of reasons:</p>
-<ul>
-  <li>learning to use the Linux environment is one of the learning objectives of the course—that environment is used in later CS courses (CS24,CS32,CS48,CS56, and almost every upper division programming course.)</li>
-  <li>using the Linux environment helps facilitate the whole &quot;pair programming&quot; thing—if it's &quot;your&quot; computer, your pair partner is likely to feel less comfortable than you. Using the shared machines &quot;levels the playing field&quot;.</li>
-  </ul>
-<p>This isn't an absolute prohibition. If the Linux machines are having software or hardware problems, or there is a problem with your account—these things happen rarely, but they do happen sometimes—then, sure, go ahead and use the laptop during lab. But otherwise, please stick with the machines provided.</p>
-<h3>Do we need to download anything to our laptops or computers at home/in the dorm?</h3>
-<p>If you are using Windows, you definitely will want to download two programs: PuTTY and XMing OR MobaXterm and Xming. I recommend the latter combination. These programs allow you to access the Linux environment on the CoE computers from your Windows machine. (Mac and Linux users usually have tools to do that already installed as part of the operating system called &quot;ssh&quot; and &quot;X11&quot;.)</p>
+<p >You do not <em>need</em> to bring a laptop to class but you are **encouraged** to bring your laptop to follow along during live coding sessions in lecture, and to use your own device during lab (discussion sections).</p>
+
+<p >Research has shown that the use of electronic devices for purposed othen than note-taking or class related activities hampers the learning of both the student and those sitting close by. Although you are allowed to bring your laptop or mobile device, please do not use it to read email or Facebook, play games, etc. That latter use can be a real distraction to others sitting behind that student, not to mention the distraction to the laptop user herself/himself.</p>
+<p> The instructor holds the right to ask you to leave the class if you fail to comply with the course policy on using devices.</p>
+
 
 ## Disclaimer
 <p>The course policies have been provided as accurately as possible, but are subject to change at the instructor's discretion, within the bounds of UC policy.</p>
