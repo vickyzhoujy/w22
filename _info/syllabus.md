@@ -84,7 +84,7 @@ Letter Grades:
 
 # Schedule <a name="schedule"></a>
 
-For office hours please check the [course Google Calendar](/f21/info/schedule/).
+For office hours please see [the Staff  Page](/f21/info/staff/).
 
 For hw, lab and exam schedule, please check the [assignment calendar](/f21/info/calendar/).
 
