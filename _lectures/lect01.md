@@ -2,7 +2,7 @@
 desc: First Lecture
 num: lect01
 lecture_date: 2021-09-23
-ready: false
+ready: true
 ---
 
 # Welcome to CS16
