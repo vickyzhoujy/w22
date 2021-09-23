@@ -68,8 +68,8 @@ offering_menus:
             description: "HW and Lab Grades"
       - title: Github
         dropdown:
-          - title: ucsb-cs16-mirza
-            url: https://github.com/ucsb-cs16-mirza
+          - title: ucsb-cs16-f21
+            url: https://github.com/ucsb-cs16-f21
   -
     term: W20
     baseurl: /w20
