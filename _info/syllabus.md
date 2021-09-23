@@ -9,27 +9,30 @@ ready: true
 This document and others linked within it should be your PRIMARY source for understanding the expectations of this course. Be sure to read it *carefully*.
 You must contact the instructor for clarification if you receive information from any another source that is in contradiction to what is provided below.
 
-* [Grading](#grading){: data-ajax="false"}
-* [Schedule](#schedule){: data-ajax="false"}
-* [Resources](#resources){: data-ajax="false"}
-* [What this course is about](#about){: data-ajax="false"}
+* [Grading](#grading)
+* [Schedule](#schedule)
+* [Resources](#resources)
+* [What this course is about](#about)
 * [Course Policies](#policies)
-* [Graded components](#moreabout){: data-ajax="false"}
+* [Graded components](#moreabout)
 
 # Grading <a name="grading"></a>
 
 ## Grade breakdown by evaluation component
 
-* Homeworks/Quizzes: 10% 
-* Lab assignments: 30%
-* Midterm Exams (2): 30%
-* Final Examination : 30%
+* zyBooks Assignments: 25% 
+* Gauchospace assignments: 25%
+* Midterm Exams (2): 25%
+* Final Examination : 25%
 
+Letter Grades:
 
-
-### Are any scores dropped?
-
-I will drop the lowest three homeworks. I will not drop any labs, exams, etc.
+* To earn a grade of A, you must an A average overall, **and in each of the four components**.
+* To earn a grade of A-, you must have at least an A- average overall, and **at least a B- average in each of the components**.
+* To earn a grade of B+, you must have at least an B+ average overall, and **at least a C+ average in  each of the components**.
+* To earn a grade of B, you must have at least an B+ average overall, and **at least a C average in  each of the components**.
+* To earn a grade of B-, you must have at least an B- average overall, and **at least a C- average  each of the components**.
+* To earn a grade of C, C-, D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
 
 ## Grade assignment policy
 
@@ -79,40 +82,18 @@ I will drop the lowest three homeworks. I will not drop any labs, exams, etc.
 <p>Finally—note that just as in a math class, everything we do builds on all the work that came before. So, <em>everything</em> is <em>cumulative</em>—so, you can't afford to miss any classes unless absolutely necessary. Miss two lectures in a 10-week two-lecture per week course, and you've already skipped exactly 10% of the course&mdash;it wouldn't be surprising if your performance (i.e. final grade) in the course dipped by a similar amount.</p>
 
 
-
-
 # Schedule <a name="schedule"></a>
 
-For office hours please check the [course Google Calendar](/f19/info/schedule/).
+For office hours please check the [course Google Calendar](/f21/info/schedule/).
 
-For hw, lab and exam schedule, please check the [assignment calendar](/f19/info/calendar/).
+For hw, lab and exam schedule, please check the [assignment calendar](/f21/info/calendar/).
 
 
 # Resources <a name="resources"></a>
 
 ## Required Resources
 
-* Textbook: Problem Solving with C++, Walter Savitch, Edition 9. Available for purchase at the UCSB book store
-
-* iClickers: You will need to own an iClicker and register it on Gauchospace. Be sure to register your clicker by the end of the first week.
-
-## Exam Resources
-
-You can find examples of previous quarter's  exams at the following links.
-
-* http://www.cs.ucsb.edu/~pconrad/cs16/14F/exams/
-
-But BEWARE---offerings of CS16 may vary in terms of their exact pace, and placement of exams. So these exams are a guide to the style of my exams, but NOT necessarily for specific content.
-
-In addition, these exams from prior to F14 used the C programming language rather than C++, and went at a much slower pace, so treat them with even more skepticism.
-
-* http://www.cs.ucsb.edu/~pconrad/cs16/10S/exams/
-* http://www.cs.ucsb.edu/~pconrad/cs16/10W/exams/
-* http://www.cs.ucsb.edu/~pconrad/cs16/09F/exams/
-
-
-
-[Back to Syllabus](#syllabus){: data-ajax="false"}
+The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00](https://ucsb-cs16.github.io/f21/hwk/h00/)
 
 # What this course is about <a name="about"></a>
 
