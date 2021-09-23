@@ -80,7 +80,11 @@ Bio coming soon.
 
 ## Connor McIntosh, LA
 
-Bio coming soon.
+Connor McIntosh is an Undergraduate Learning Assistant for CS16 
+and a 4th year CS major from Ventura, CA. He is a member of the 
+Data Science club at UCSB who has worked on and started sports analytics 
+machine learning projects. Connor is also a member of the Gaucho Pep Band, 
+so you may see him playing the drums at basketball and soccer games this year.
 
 
 ## Jerry Wang, LA
