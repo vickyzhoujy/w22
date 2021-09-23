@@ -120,6 +120,6 @@ main_dropdown:
     title: Resources
     dropdown:
        - title: Topics
-         url: /topic_list/
+         url: /topics/
        - title: Resources
-         url: /resources_list/
+         url: /resources/
