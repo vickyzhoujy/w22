@@ -43,8 +43,7 @@ lecture_days_of_week: TR
 instructor_url: https://ucsb-cs16.github.io/instructor
 
 cal_dates: >
-  [
-   [                                                                            
+  [                                                                            
     {"label":"F21 1st day of instruction", "date":"2021-09-23" },
     {"label":"Veterans' Day", "date":"2021-11-11" },
     {"label":"Thanksgiving", "date":"2021-11-25" },
