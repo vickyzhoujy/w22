@@ -91,7 +91,7 @@ Bio coming soon.
 
 ## Arthur Gatin, LA
 
-![Arthur Gatin](./staff/C16-F21-Arthur-G.png)
+![Arthur Gatin](_info/staff/C16-F21-Arthur-G.png)
 
 Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
 
