@@ -81,7 +81,7 @@ Bio coming soon.
 
 ## Ashley Wang, TA
 
-Bio coming soon.
+Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in the BS/MS program. I'm super excited to be TA-ing for this class and to help you get a better understanding of any fundamental C++ topics. I also did my undergrad here at UCSB, so if you have any questions about specific classes or my undergrad experience in general, feel free to reach out or swing by office hours. If you ever have any questions, the best way to contact me will be through Campuswire through DM, and I'll try to get back to you within 24 hours. I'm really looking forward to meeting y'all and getting to know you throughout the rest of the quarter!
 
 
 ## Shu Yang, TA
