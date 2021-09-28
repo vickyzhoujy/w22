@@ -10,11 +10,12 @@ ready: true
  iframe { width: 100%; height: 500px; }
 </style>
 
+Information on Office Hours coming soon.
 
-Office Hours 
 Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
 
-Office hours for the weeks of 09/23-09/25, and 09/26-10/02 will be online at <https://bit.ly/cs16-f21-office-hours> per the schedule below.
+So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
+
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQiMqLoMh9__fAe-xc7XHjFCd1r8ieHVYiBltFrIPGBLOMTFsy97fyc5c4fuZ85E2l7_gcZmPGyvng0/pubhtml?widget=true&amp;headers=false"></iframe>
 
@@ -70,8 +71,11 @@ Bio coming soon.
 
 ## Lucas Relic, TA
 
-Bio coming soon.
+Hi! My name is Lucas (he/him/his) and I am a 5th year BS/MS student studying computer science. I took this course 4 years ago and I know how daunting learning a new language (or programming for the first time) can seem. However, my goal is to break down difficult concepts and get everyone comfortable with C++ and C++ development. Future classes will build upon these fundamental topics so it's important to get a good grip on them now, and I can't reiterate enough how important it is to ask for help! Supportive teaching staff really enabled me to succeed in CS 16 and I hope to provide the same experience to all of you.
 
+My research interest lies where computer vision and machine learning meet, as well as other deep learning applications. Additionally, my undergrad degree here was in Computer Engineering, and I've taken a wide variety of CS and ECE courses. Stop by my office hours if you'd like to ask any questions about my research, classes, or anything UCSB in general! I've been around campus for a while, so I might have some good information for you.
+
+In my free time, I like to ski, ride bikes, and play video games. I look forward to getting to know all of you!
 
 ## April Sanchez, TA
 
@@ -80,7 +84,7 @@ Bio coming soon.
 
 ## Ashley Wang, TA
 
-Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in the BS/MS program. I'm super excited to be TA-ing for this class and to help you get a better understanding of any fundamental C++ topics. I also did my undergrad here at UCSB, so if you have any questions about specific classes or my undergrad experience in general, feel free to reach out or swing by office hours. If you ever have any questions, the best way to contact me will be through Campuswire through DM, and I'll try to get back to you within 24 hours. I'm really looking forward to meeting y'all and getting to know you throughout the rest of the quarter!
+Bio coming soon.
 
 
 ## Shu Yang, TA
@@ -90,24 +94,17 @@ Bio coming soon.
 
 ## Arthur Gatin, LA
 
-<img src="CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
-
-Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+Bio coming soon.
 
 
 ## Connor McIntosh, LA
 
-Connor McIntosh is an Undergraduate Learning Assistant for CS16 
-and a 4th year CS major from Ventura, CA. He is a member of the 
-Data Science club at UCSB who has worked on and started sports analytics 
-machine learning projects. Connor is also a member of the Gaucho Pep Band, 
-so you may see him playing the drums at basketball and soccer games this year.
+Bio coming soon.
 
 
 ## Jerry Wang, LA
 
-Hello, I am a senior CS student. My study interests are artificial intelligent and algorithm design.
-My office hour: MW 4pm - 6pm
+Bio coming soon.
 
 
 ## Cameron King, LA in training
