@@ -14,7 +14,7 @@ ready: true
 Office Hours 
 Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
 
-Office hours for the weeks of 09/23-09/25, and 09/26-10/02 will be online at https://bit.ly/cs16-f21-office-hours per the schedule below.
+Office hours for the weeks of 09/23-09/25, and 09/26-10/02 will be online at <https://bit.ly/cs16-f21-office-hours> per the schedule below.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQiMqLoMh9__fAe-xc7XHjFCd1r8ieHVYiBltFrIPGBLOMTFsy97fyc5c4fuZ85E2l7_gcZmPGyvng0/pubhtml?widget=true&amp;headers=false"></iframe>
 
@@ -90,7 +90,7 @@ Bio coming soon.
 
 ## Arthur Gatin, LA
 
-<img src="/f21/staff/CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
 
