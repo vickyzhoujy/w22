@@ -100,7 +100,8 @@ Bio coming soon.
 
 ## Jerry Wang, LA
 
-Bio coming soon.
+Hello, I am a senior CS student. My study interests are artificial intelligent and algorithm design.
+My office hour: MW 4pm - 6pm
 
 
 ## Cameron King, LA in training
