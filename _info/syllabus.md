@@ -21,7 +21,7 @@ You must contact the instructor for clarification if you receive information fro
 ## Grade breakdown by evaluation component
 
 * zyBooks Assignments: 25% 
-* Gauchospace assignments: 25%
+* Gradescope assignments: 25%
 * Midterm Exams (2): 25%
 * Final Examination : 25%
 
