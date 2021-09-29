@@ -21,3 +21,11 @@ For now: please know this:
 With such a large number of students, we need to be sure that there is an appropriate number of staff deployed to help you.  If everyone just comes to "whatever discussion section suits their schedule", we'll have problems.
 
 If you have a standing conflict with your section, please use the "Section swap request" discussion on Campuswire.com to find someone to switch with.
+
+# Instructions for TAs
+
+* Please look over the roster for your section on Gauchospace, and see if each student is in the zyBook.
+* If they are not in the zyBook at all, please email them, and cc me and remind them that they need to sign up.
+* If they are in the zyBook, but in the wrong section (and/or any other information is incorrect, e.g. perm or school email), please email them, cc me, and ask them to fix it.
+
+Help students with whatever problems they are having working on the labs.
