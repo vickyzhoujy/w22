@@ -10,9 +10,7 @@ ready: true
  iframe { width: 100%; height: 550px; }
 </style>
 
-
-Office Hours 
-Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
+# Office Hours
 
 Office hours for the weeks of 09/23-09/25, and 09/26-10/02 will be online at <https://bit.ly/cs16-f21-office-hours> per the schedule below.
 
