@@ -8,6 +8,13 @@ ready: true
 
 ---
 
+
+# Which Computer Should I Use
+
+* If you have your own laptop, that's fine: just use that for today.
+* If you don't, there are 21 desktop computers you can use, but for those, you need a College of Engineering Account.
+  * Set up your account here: <https://accounts.engr.ucsb.edu/create>
+
 # Introduction
 
 This page will have instructions for your first discussion section.  It will be updated soon.
