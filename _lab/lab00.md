@@ -11,17 +11,27 @@ ready: true
 
 # Which Computer Should I Use
 
-* If you have your own laptop, that's fine: just use that for today.
-* If you don't, there are 21 desktop computers you can use, but for those, you need a College of Engineering Account.
+* If you have your own laptop, that's fine: just use that for today.  Students with their own laptops may like to use the round tables at the back of the room.  You are also welcome to use the other places if those are all full, or you just like sitting closer to the front.
+* If you don't have your own laptop, there are 21 desktop computers you can use, but for those, you need a College of Engineering Account.
   * Set up your account here: <https://accounts.engr.ucsb.edu/create>
 
-# Introduction
+# What we are working on today
 
-This page will have instructions for your first discussion section.  It will be updated soon.
+* You'll be introduced to the primary TA for your section, and the TAs/LAs helping them out.
 
-For now: please know this:
+* You'll then just work in the zyBook, at whatever place you left off.
+
+* You may also revisit older sections if there were things you didn't fully understand, or have questions.
+
+* If the TAs/LAs are not busy helping students with CS16 questions, you may also just ask your TAs/LAs general questions about the course, about Computer Science, and about UCSB; but please give priority to students with questions about CMPSC 16 material.
+
+# Will every week be like this?
+
+No!  Some weeks we'll ahve specific activities outside the zyBook that *only* take place during your discussion seciton.
+
+Accordingly:
 * You should participate during your assigned discussion section time.  
-* You are encouraged to come in person if you can, but you may also participate over Zoom if you are unable to do so (e.g. due to quarantine, Covid symptoms, or other issues).  A zoom link will be provided at the appropriate time (if one is not, just use the lecture zoom link.)
+* You are encouraged to come in person if you can, but you may also participate over Zoom if you are unable to do so (e.g. due to quarantine, Covid symptoms, or other issues). We'll use the zoom link for office hours for this purpose: https://bit.ly/cs16-f21-office-hours
 
 # Why you need to come to your assigned discussion section
 
@@ -29,7 +39,11 @@ With such a large number of students, we need to be sure that there is an approp
 
 If you have a standing conflict with your section, please use the "Section swap request" discussion on Campuswire.com to find someone to switch with.
 
-# Instructions for TAs
+<hr />
+
+Everything below this line is for TAs/LAs.  Students are welcome to read it&mdash;there are no secrets here&mdash;but you don't really need to.
+
+# Instructions for Primary TA
 
 1. Try to arrive 10 minutes before the hour if possible.  If that isn't, because of your schedule, try to make sure at least one of your helpers for your section can commit to doing so.
 
