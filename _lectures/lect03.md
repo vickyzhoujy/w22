@@ -1,9 +1,13 @@
 ---
 desc: Third Lecture
 num: lect03
-lecture_date: 2021-09-29
+lecture_date: 2021-09-30
 ready: true
 ---
+
+# Extra Credit opportunity is up
+
+* <https://ucsb-cs16.github.io/f21/hwk/ec00/>
 
 # Continuing our discussion of data types
 
