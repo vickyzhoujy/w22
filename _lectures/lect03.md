@@ -15,7 +15,7 @@ ready: true
 * But initializing the fields was inconvenient
 * Today we'll discuss adding constructors to make that easier.
 
-Slides: <https://docs.google.com/presentation/d/17ma1G7gbReFFaQw6XDI8rD572XJIW6wJBzny9C6vvJ8/edit?usp=sharing>
+Slides: <https://docs.google.com/presentation/d/1Y6HoYn0hvGll0_VqW4Qyyn47bhXUpUd-uLgvdGBklms/edit?usp=sharing>
 
 # Code
 
