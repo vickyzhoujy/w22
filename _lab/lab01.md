@@ -44,9 +44,43 @@ Then, you are in.  You can use `pwd` and `ls` commands as shown in lecture, plus
 
 The command `logout` or `exit` can be used to return to your own system.
 
+# Editing and compiling a Hello World program on ECI/CSIL
 
+First, learn about vim, perhaps using one of these resources:
 
+* <https://vim-adventures.com/> Learn vim while playing a game in your browser
+* Intro articles about vim:
+  * vim overview: <https://ucsb-cs16.github.io/topics/vim/>
+  * vim basic eight commands: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
+  * vim customization: <https://ucsb-cs16.github.io/topics/vim_customization/>
 
+Then, to create a `Hello World` program in vim:
+
+1. Type `vim hello.cpp`
+2. Make sure you are in insert mode (you'll learn about that when you learn about vim)
+3. Type in your program, e.g.
+   ```cpp
+   #include <iostream>
+   using namespace std;
+   
+   int main() {
+     cout << "Hello, World!" << endl;
+     return 0;
+   }
+   ```
+4. Press the escape key, then type `:wq` to save.
+5. To compile the program: `make hello`
+6. To run the program `./hello`
+
+There is nothing to turn in *this* week, but next week, you'll be asked to show that you know how to do this with a live demo either during office hours, or during your discussion section.  So, practicing this week is good preparation.
+
+# Will we always use vim? No!
+
+We will pivot to using a better editor, VS Code, once we understand the basics of using `vim`.  However, we want to start with `vim`, because it is an essential skill for computing professionals, especially if you will be involved in Cloud Computing systems, backend web servers, Docker containers, etc.
+
+# What if I'm completely stuck on this vim / ECI stuff?
+
+No worries; you can ask the staff for help.  In the meantime, if you prefer, you can just make progress in the zyBook, up through Chapter 7.
 
 # For TAs:
 
