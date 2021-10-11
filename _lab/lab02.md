@@ -71,42 +71,14 @@ In this assignment, we'll be working on your CSIL/ECI/CoE to edit and compile a 
 
 The first step in every assignment where you work on CSIL/ECI/CoE is to open a <b>terminal window on CSIL</b>.
 
-* If you are working on a desktop machine in Phelps 3525, this is super easy; just which will be the environment you use to write, compile, and run your programs.
-
-If you are working on your laptop, whether Windows, Mac or Linux, the instructions below will tell you how to connect to `csil.cs.ucsb.edu`.
-
-* If you are working on your laptop and it is a Mac or Linux machine, go to [Step 2b](#step2b){: data-ajax="false"}.
-
-* If you are working on your laptop and it is a Windows machine, go to [Step 2c](#step2c){: data-ajax="false"}.
-
-### Step 2b: Connecting to CSIL via SSH on Mac OS X or Linux <a name="step2b"></a>
-
-To get started on Mac OS X or Linux, you first need to open a terminal program. This involves slightly different steps on either OS.
-
-* On Ubuntu (an example of a Linux OS):
-
-1. Find the search menu. It appears at the top of the Unity bar:
-
-<img src="ubuntu-menu.png" width="297" alt="Ubuntu Search Menu" />
-
-2. Click on that icon to open the search menu. Then type "terminal" and click on the "Terminal" application which appears:
-
-![ubuntu-search](ubuntu-search.png)
-
-*On Mac OS X:*
-
-1. Open the "Terminal" application. It is found inside the <em>Applications</em> folder of your main drive, inside the <em>Utilities</em> subfolder. The icon looks like this:
-
-<img src="mac-terminal.png" width="79" alt="Mac OS X Terminal Icon" />
-
-You can also find it using Spotlight by typing "terminal" and pressing ENTER.
-
-Once you have a terminal window open on your machine, you next need to **connect to the CSIL server remotely**.
-
-You will do this using a UNIX command (an internet protocol, really) called <em>SSH</em> (short for Secure SHell).
-
-Type the following command in your terminal, replacing <b>USERNAME</b> with <b>your CoE username</b>:
-
+* If you are working on a desktop machine in Phelps 3525, this is super easy; open a terminal window, and you are there. 
+* If you are working on your own machine:
+  - Windows: You can use Powershell 
+  - MacOS: You can use Terminal
+  - Linux/Unix: Any terminal shell
+  
+The command to open a terminal on CSIL is this, where `USERNAME` is your CSIL/ECI/CoE username (e.g. the one you created at <https://accounts.engr.ucsb.edu>:
+  
 ```
 $ ssh USERNAME@csil.cs.ucsb.edu
 ```
