@@ -7,17 +7,16 @@ ready: true
 
 
 <style>
- iframe { width: 100%; height: 500px; }
+ iframe { width: 100%; height: 550px; }
 </style>
 
-Information on Office Hours coming soon.
 
-Eventually, there will be a variety of opportunities for in-person office hours throughout the week.  We have to get keys distributed first, though, and set up assignments to timeslots.
+# Office Hours
 
 So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQiMqLoMh9__fAe-xc7XHjFCd1r8ieHVYiBltFrIPGBLOMTFsy97fyc5c4fuZ85E2l7_gcZmPGyvng0/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTM1dLqCdZP8OmtsbsqgePxjGU0xE_Fvu_2S54pd9LiyxgtrrJA6VGal_gSrPx6rWE_vgS5fcoqItOj/pubhtml?gid=993902465&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 # Course Staff<a name="staff"></a>
@@ -96,6 +95,7 @@ Bio coming soon.
 
 Bio coming soon.
 
+<div style="clear:both;"></div>
 
 ## Connor McIntosh, LA
 
@@ -104,7 +104,10 @@ Bio coming soon.
 
 ## Jerry Wang, LA
 
-Bio coming soon.
+
+Hello, I am a senior CS student. My study interests are artificial intelligent and algorithm design.
+My office hour: TR 3:20pm - 4:20pm
+I'll hold my office hours outside chem 1179, together with professor Conrad under the tree. We can always move to Phelps Hall 3525 if needed.
 
 
 ## Cameron King, LA in training
