@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab02
-ready: false
+ready: true
 desc: "Submitting to Gradescope"
 assigned: 2021-10-11 08:00
 due: 2021-10-18 23:59:00.00-7
