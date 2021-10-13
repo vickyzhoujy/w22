@@ -10,6 +10,7 @@ ready: true
  iframe { width: 100%; height: 550px; }
 </style>
 
+
 # Office Hours
 
 So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
@@ -69,8 +70,11 @@ Bio coming soon.
 
 ## Lucas Relic, TA
 
-Bio coming soon.
+Hi! My name is Lucas (he/him/his) and I am a 5th year BS/MS student studying computer science. I took this course 4 years ago and I know how daunting learning a new language (or programming for the first time) can seem. However, my goal is to break down difficult concepts and get everyone comfortable with C++ and C++ development. Future classes will build upon these fundamental topics so it's important to get a good grip on them now, and I can't reiterate enough how important it is to ask for help! Supportive teaching staff really enabled me to succeed in CS 16 and I hope to provide the same experience to all of you.
 
+My research interest lies where computer vision and machine learning meet, as well as other deep learning applications. Additionally, my undergrad degree here was in Computer Engineering, and I've taken a wide variety of CS and ECE courses. Stop by my office hours if you'd like to ask any questions about my research, classes, or anything UCSB in general! I've been around campus for a while, so I might have some good information for you.
+
+In my free time, I like to ski, ride bikes, and play video games. I look forward to getting to know all of you!
 
 ## April Sanchez, TA
 
