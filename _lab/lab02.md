@@ -83,7 +83,14 @@ The command to open a terminal on CSIL is this, where `USERNAME` is your CSIL/EC
 $ ssh USERNAME@csil.cs.ucsb.edu
 ```
 
-SSH will first ask you a question which looks like this:
+The name `csil.cs.ucsb.edu` is actually a "front end" to a collection of machines with names such as these:
+* `csilvm-01.cs.ucsb.edu`
+* `csilvm-02.cs.ucsb.edu`
+* etc.
+
+The system will choose one of these for you (to try to spread the load over multiple machines), and then connect you to it.
+
+The first time you connect to a particular machine, ssh may first ask you a question which looks like this
 
 ```
 The authenticity of host 'csil-[01-48].cs.ucsb.edu (128.111.43.14)' can't be established.
@@ -101,55 +108,10 @@ $ hostname
 
 ```
 
-This should show <b>csil.cs.ucsb.edu</b>. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab (except run graphical programs).
+This should show the name of one of the virtual machines such as `csilvm-01.cs.ucsb.edu`. You can now do anything you could normally do in a terminal window in CSIL or the Phelps lab, with the exception of programs that use graphics.
 
-## Extra Note: Graphical Forwarding
-
-This is not required or necessary to use CSIL remotely, so if you are not interested, go ahead and skip this part.
-
-If you have an X windows system installed you can get graphical applications running by <em>forwarding</em> X from CSIL to your machine. To do this, add the <b>-X</b> option to the SSH command like this:
-
-```
-$ ssh -X USERNAME@csil.cs.ucsb.edu
-```
-
-X windows is almost always installed on graphical Linux, and can be installed on Mac OS X as XQuartz (which can be found at <a href="http://xquartz.macosforge.org/landing/" target="_blank">http://xquartz.macosforge.org/landing/</a>).
-
-### Step 2c: Connecting to CSIL via SSH on Windows with PuTTY <a name="step2c"></a>
-
-To connect remotely on Windows machines, we recommend using a program called <em>PuTTY</em>. This program is a well-known and widely-used SSH client for the Windows OS.
-
-First, download the program from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</a>. You only need the executable file <b>putty.exe</b>, but feel free to download any other programs that you want. The page includes portable versions and a version with an installer. <i>Always make sure to download PuTTY from this site</i>, so that you can make sure it is the correct program.
-
-Once downloaded, run PuTTY like you would open other programs. If you just download the <b>putty.exe</b> file, you can open it from your downloads folder directly. You can also move it to any other location on your machine and open it from there. If you used the installer, open PuTTY from the Start Menu.
-
-When PuTTY opens, you should see a window that looks like this:
-
-<img src="putty-empty.png" width="469" alt="Empty PuTTY window" />
-
-Type <b>csil.cs.ucsb.edu</b> into the box labeled "Host Name (or IP address)". Leave the "Port" setting at 22 and leave the "SSH" button checked. The window should now look like this:
-
-<img src="putty-full.png" width="472" alt="Completed PuTTY window" />
-
-Then click on the "Open" button to connect. PuTTY will then show a prompt which looks like this:
-
-<img  src="putty-hostkey.png" width="433" alt="PuTTY Host Key Prompt" />
-
-Click "Yes" to accept and have PuTTY remember CSIL's key.
-
-Once a connection is made, CSIL will ask for both your username and then your password. Type in your CSIL username and password. The password will not be shown on the screen, but the characters you type are being used. This step will look something like this (with your username instead of "username"):
-
-<img src="putty-login.png" width="677" alt="PuTTY Login Prompt" />
-
-Once you have logged in successfully, you should be connected remotely to the CSIL server. Run the following command to make sure (this command shows the full host name of the machine you are logged in to):
-
-```
-$ hostname
-```
-
-This command should output <b>csil-[01-48].cs.ucsb.edu</b>. You can now do anything in this terminal window that you could do on a CSIL machine or a Phelps lab machine, except run graphical applications.
-
-If you want to run graphical applications, instead of using puTTY, you can use other programs, such as [MobaXterm](http://mobaxterm.mobatek.net/){: target="_blank"}.
+Note: While it isn't required for this lab, if you are interested in running programs that use graphics, you can use something called
+the Remote Desktop Protcol (RDP), which is explained in [this article](https://ucsb-engr.atlassian.net/wiki/spaces/EPK/pages/602046589/Remote+Access+to+ECI+Computing+Labs).   But I suggest that you skip over that for now, and just continue with the rest of this lab.  We'll return to RDP as and when it's needed for something in this course.
 
 ## Step 3: Create cs16 and lab00 directories<a name="step3"></a>
 
@@ -196,42 +158,93 @@ Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valua
 
 Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.
 
-You are surely all familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD TO WRITE PROGRAMS!!! :)<br>
-Instead, for programming, you have access to a very large number of excellent text editors - most of them are free to use! All software developers have their preferences, but learning the basics of a Unix-based command line text editor is very important. Every student who intends to study computer science should learn a popular Unix-based text editor (vim or emacs), since it is not uncommon that the machine you need to work on does not have a Graphical User Interface (GUI), and you may be forced to use a command-line editor. The two most popular Unix-based command line editors are <b>vim</b> and <b>emacs</b>. 
+You are likely familiar with Microsoft Word as a widely-used "word processor", but please DO <b>NOT</b> USE MS WORD TO WRITE PROGRAMS!!!
 
-In fact, <i>AND PLEASE NOTE THIS</i>, no one editor is necessarily "better" than another. It is a matter of your preference. For the first couple labs in this class, we will be using <b>vim</b> to work on our programs.
+Instead, for programming, you have access to a very large number of excellent text editors&mdash;and most of them are free to use! All software developers have their preferences, but learning the basics of a Unix-based command line text editor is very important. Every student who intends to study computer science should learn a popular Unix-based text editor (such as vim or emacs), since it is not uncommon that the machine you need to work on does not have a Graphical User Interface (GUI), and you may be forced to use a command-line editor. 
 
+The two most popular Unix-based command line editors are <b>vim</b> and <b>emacs</b>.   Some developers tend to get a little passionate about text editors, and will endlessly argue the benefits of vim over emacs, or emacs over vim.  But it is widely acknowledged even among <b>emacs</b> fans then <b>vim</b> has this advantage over <b>emacs</b>: it is more widely available, i.e.
+it tends to be installed by default on most Unix-based systems, while <b>emacs</b> is a separate install.  
+
+Three of the CS instructors (Professors Diba Mirza, Richert Wang, and Phill Conrad) did an very informal survey of a number of UCSB CS alums working in the software industry, and the consensus was this: students should learn:
+* Enough `vim` to be able to make simple edits to files
+* Then transition to an open source, full-fledged editor with IDE type features, VS Code being the leading contender.
+
+Therefore, in this class:
+* For the first couple labs in this class, we will be using <b>vim</b> to work on our programs.
+* We'll then show you how you can transition to VS Code if you like.
+
+Ultimately, the choice of text editor is a personal one, and if you are already familiar with an editor you prefer (e.g. Atom, XCode, Eclipse, etc.) it's perfectly fine for you to continue using that editor, though we will expect every CS16 student to develop at least
+*basic* profciency with vim.   We have a list of eight things you need to know how to do in vim in this article:
+* <https://ucsb-cs16.
 ## <b>vim</b> for UNIX-based OS
 
 vim (or sometimes called vi) is a popular editor that's also available on just about every UNIX machine (including the ones that you're using in the CS labs) and UNIX-based machines (like MacOS computers).
 
-To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
+To create or make changes to a file (let's say it's called "filename.cpp"), you'd type the following at the prompt. (Throughout these instructions, the `$` represents the command line prompt, and is not part of the command you type.)
 
 ```
-cp /cs/faculty/richert/public_html/cs16/misc/.vimrc ~/
+	$ vim filename.cpp
 ```
 
-To run vim on a UNIX machine or a MacOS machine, open up a terminal (see above for how to do that on Macs) and type:
 
-	$ vim
 
-To edit a file (let's say it's called "filename"), you'd type:
+## Brief overview of vim
 
-	$ vim <filename>
+Even if you are already getting comfortable with vim, please read through the following.  It may help give you some vocabulary to talk about `vim`, and also help you get more comfortable with how `vim` works.
+
+The most important things to know about vim is that `vim` has various modes, including "normal" mode, `INSERT` mode, and "command" mode.
+* In "normal" mode, each key on your keyboard may do some editor command.
+* In `INSERT` mode, you see `INSERT` at the bottom of the screen.  This is the mode in which you type in text, use the arrow keys, and can use the delete key to delete the characters immediately before the cursor.
+* In "command" mode, the cursor jumps to the bottom of the screen, and you see a colon `:` where you can type commands.
+
+How do you move between modes?
+* To move from normal mode into insert mode: type the letter `i`.  You should see `INSERT` appear at the bottom of the screen.
+* To move from insert mode back to normal mode: press the "escape" key (usually labelled `esc`, and at the top left of your keyboard).  The word `INSERT` should disappear.
+* To move from normal mode to command mode: type the colon, i.e. `:`.  The cursor shoudl jump to the bottom of the screen where you see a colon (`:`).  To get out of command mode, you type in a command (such as `w` to save the file, or `q` to quit) and press enter.  You can also just press enter by itself to get back to normal mode.
+
+How do you enter text?
+* You enter text by going into `INSERT` mode and just typing.  You can move the cursor around with the arrow keys.
+* You can also use the delete key to remove text.
+
+How do you do delete an entire line at once?
+* To delete an entire line at once, go into "normal" mode (use the `esc` key to get out of `INSERT` mode), and then press the `d` key twice, i.e. type `dd`.   This should remove an entire line.
+* If you want to put that line back, move your cursor up one line with the arrow key, and then press `p` to put the line back. (Note that `p` always puts the line back on the line below the cursor, so to undo the `dd` command, you need to move the cursor one line up first.)
+
+How do you save the file?
+* Get to normal mode (press `esc` if you in `INSERT` mode)
+* Type `:` to go to command mode
+* Use the `w` command ("write") to write out the file to the disk.
+
+How do you save the file?
+* Get to normal mode (press `esc` if you in `INSERT` mode)
+* Type `:` to go to command mode
+* Use the `q` command ("quit") to leave `vim`
+
+Can you save and exit all at once?
+* Yes.  Get to normal mode (press `esc` if you in `INSERT` mode)
+* Type `:` to go to command mode
+* Use the `wq` ("write", then quit") to leave `vim`
+
+To learn more, including how to quit without saving, do search/replace, and copy/paste, see:  <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
+
+## What do we need to know about vim for CS16?
+
+While we stress that ultimately the choice of text editor is a personal choice, that we leave up to you, we do want every CS16 student to at the very least develop basic vim skills for a minimal set of commands, which we call the "basic eight".
+
+Those are documented here: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
+
+There will be an assignment where you need to do a live demo for one of the TAs or LAs demonstrating that you know these basic eight skills in vim.
 
 Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:
 
-* <a href="http://www.vim.org/about.php" target="_blank">About vim</a>
+* [About vim (from vim.org)](http://www.vim.org/about.php)
+* [Vim "how to" from engadget.com](https://www.engadget.com/2012/07/10/vim-how-to/)
+* [vim commands - a handy reference card](http://tnerual.eriogerg.free.fr/vimqrc.html)
+* [another reference cheat sheet for vim](https://www.fprintf.net/vimCheatSheet.html)
 
-* <a href="https://www.engadget.com/2012/07/10/vim-how-to/" target="_blank">
-
-* <a href="http://tnerual.eriogerg.free.fr/vimqrc.html" target="_blank">vim commands - a handy reference card</a>
-
-* <a href="https://www.fprintf.net/vimCheatSheet.html" target="_blank">another reference cheat sheet for vim</a>
+In addition, there is the [Vim Adventures Game](https://vim-adventures.com/) that helps you learn vim while playing a video game.
 
 ## Step 5: Create and edit a file containing a C++ program <a name="step5"></a>
-
-Here are some more [vim hints](vim_hints/) to refer to. We don't expect you to be experts in vim this quarter, but you should definitely pick up "survival" skills. A little later this quarter, we will confirm that you know how to do the "basic eight" ([vim: basic eight](https://ucsb-cs16.github.io/topics/vim_basic_eight/)). 
 
 This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look EXACTLY as follows</b> (no space before or after each line, except the 2 newlines):
 
@@ -253,19 +266,20 @@ int main() {
     return 0;
 }
 ```
-Go ahead and type this in to the **hello.cpp** file. Alternatively, you can copy and paste it directly from this page.
+Go ahead and type this in to the `hello.cpp` file. Alternatively, you can copy and paste it directly from this page.
 
 Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <b>//</b> or text between <b>/*</b> and <b>*/</b>. The second type can span multiple lines.
 
-Important note: For students familiar with Python, remember that lines starting with the <b>#</b> character are not comments in C++. Rather, they are important `include` lines that allow your program to use the input and output functionality. Make sure to copy those lines in your program as well. Only <b>//</b> or <b>/*</b> create comments in C++.
+Important note: For students familiar with Python, remember that lines starting with the <b>#</b> character are not comments in C++. Rather, they are important `include` lines that allow your program to use the input and output functionality. Make sure to copy those lines in your program as well. Only `//` or `/* */` create comments in C++.
 
-To print out text to the terminal, you can use the <b>cout</b> stream. To output something use the <b>&lt;&lt;</b> operator as shown below:</p>
+To print out text to the terminal, you can use the `cout` stream. To output something use the `<<` operator as shown below:</p>
 
 ```
 cout << "This will be printed out to the terminal" << endl;
 ```
 
-The <b>endl</b> command will cause a newline (i.e. a carriage return) to be printed and the next print to go on the next line.
+The `endl` stream manipulator will cause a newline (i.e. a carriage return) to be printed so that the next thing printed
+goes on the next line.  
 
 You can adapt this line to achieve the objective of the assignment. <b>Remember that we need to print two lines, each with a newline at the end.</b> You can do this with one or two statements.
 
@@ -277,24 +291,39 @@ Before moving on, <b>make sure you save your code</b> and close the text editor.
 
 For C++ code we will use the <b>g++</b> compiler that's built into many UNIX machines (it even works on most MacOS terminal programs). You can compile the <b>hello.cpp</b> file into an executable called <b>hello</b> with the following command:
 
-	$ g++ -o hello hello.cpp
+```
+	$ g++ hello.cpp -o hello
+```
+
 
 This will compile your code and make an executable version of it. Specifically, it will tell the compiler to take the source code file <b>hello.cpp</b> and compile and link it to an executable called <b>hello</b>.
 
+Alternatively, you can use this shortcut:
+
+```
+	$ make hello
+```
+
+The `make` program is a piece of software that helps you make software with C and C++.   It has automatic rules for generating compiler commands, one of which is that by default, to make an executable program called `hello`, the default compiler command is the one shown here.
+
+Ultimately, you will need to know the long versions of the commands, but it's fine to use the shortcut for the time being.
+
 If the compilation is successful, you won't see any output from the compiler, but if you issue a UNIX <b>ls</b> command, you should see a new file has appeared: one called <b>hello</b>. You can then use the following command to run your program:
 
+```
 	$ ./hello
+```
 
 Which means "in the current directory, as represented by the <b>.</b> character, run the program <b>hello</b>". You should then see the program output the two expected lines.
 
 The other possibility is that the program may <b>not compile successfully</b>. What to do then?<br>
 If you run the <b>g++</b> command and are unsuccesful with your compilation, then you might see an output that looks like this:
 
-
+```
 	hello.cpp: In function ‘int main()’:
 	hello.cpp:10:1: error: expected ‘;’ before ‘}’ token
  	}
-
+```
 
 The compiler will try to give you hints on the line (in this case, it's complaining about line 10) where the error occurs, and also about what the error is (in this case a missing semicolon). You will also note that, in this case, an output executable file is not produced.
 
@@ -304,7 +333,7 @@ If you encounter an error, use the compiler hints and examine the line in questi
   
 You will need to turn in your correct <code>hello.cpp</code> file to Gradescope.
 
-The lab assignment "cs16_Lab00" should appear in your Gradescope dashboard in CMPTGCS 1A. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
+The lab assignment `lab02` should appear in your Gradescope dashboard. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
 
 For this lab, you will need to upload your `hello.cpp` file. You either can navigate to your file, "drag-and-drop" them into the "Submit Programming Assignment" window, or even use a GitHub repo to submit your work. For now choose either of the first two options and follow the steps to upload `hello.cpp` to gradescope.
 
