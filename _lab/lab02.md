@@ -41,6 +41,16 @@ You should have already done this in [H04](https://ucsb-cs16.github.io/f21/hwk/h
 
 * <https://ucsb-cs16.github.io/f21/hwk/h04/>
 
+## Check that you are in the GitHub Org and have a `lab02-YOUR-GITHUB-USERNAME` repo.
+
+In order to continue with the lab, you need to be a member of the GitHub organization, and you need to have a lab02 repo.
+
+* Bring up the web page: <https://github.com> and login to your GitHub account.
+* Then, in the same browser window, navigate to <https://github.com/ucsb-cs16-f21>.   Then go to the tab that says `People`, and under that tab, search for your own name (or GitHub id).  You should be able to see the members of the organization, and your name should appear in that list.
+  * If you are not able to see the `People` tab, or your name does not appear in the list, look at the top of the page for <https://github.com/ucsb-cs16-f21> and see if you find an invitation to the organization that you haven't accepted yet.  If that appears, please click to accept the invitation to the organization.  After doing this, one of the staff will need to create your lab02 repository, so ask for assistance.
+* Assuming you got this far, look under the tab for repositories.  You should see a listing for a repository called `lab02-YOUR-GITHUB-USERNAME` where `YOUR-GITHUB-USERNAME` is your GitHub username (for example `lab02-cgaucho`).
+  * If you don't see a `lab02-YOUR-GITHUB-USERNAME` repo, then ask a staff member for assistance.
+
 ## Get setup with gradescope
 
 We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have manually added everyone (using your @umail.ucsb.edu accounts) 
@@ -53,7 +63,6 @@ Once you follow the instructions to set your password, you should have access to
 
 If you don't have `CMPSC 16` and `lab02` on Gradescope, please contact the staff for assistance.
 
-
 ## Set up git and ssh keys on CSIL
 
 In lecture, we covered two simple steps you should have done to prepare for today, listed below.  If you've already done them, great!  If not, now's the time:
@@ -63,11 +72,16 @@ In lecture, we covered two simple steps you should have done to prepare for toda
 
 
 
-# Implement and submit a simple C++ program 
+# Clone a github repo, add a simple C++ program, submit on Gradescope
 
-## Step 1: Open a Terminal and write a "Hello World" program 
 
-In this assignment, we'll be working on your CSIL/ECI/CoE to edit and compile a simple C++ program.
+## Step 1: Open a Terminal on CSIL 
+
+In this assignment, we'll be working on your CSIL/ECI/CoE to:
+* clone a GitHub repo
+* edit and compile a simple C++ program
+* add that C++ program to your repo
+* submit it to Gradescope for grading
 
 The first step in every assignment where you work on CSIL/ECI/CoE is to open a <b>terminal window on CSIL</b>.
 
@@ -113,7 +127,7 @@ This should show the name of one of the virtual machines such as `csilvm-01.cs.u
 Note: While it isn't required for this lab, if you are interested in running programs that use graphics, you can use something called
 the Remote Desktop Protcol (RDP), which is explained in [this article](https://ucsb-engr.atlassian.net/wiki/spaces/EPK/pages/602046589/Remote+Access+to+ECI+Computing+Labs).   But I suggest that you skip over that for now, and just continue with the rest of this lab.  We'll return to RDP as and when it's needed for something in this course.
 
-## Step 3: Create cs16 and lab00 directories<a name="step3"></a>
+## Step 2: Create cs16 directory
 
 Now that your environment is set up, you will need to create a directory (a folder is also called <i>directory</i> in Linux) that will contain all your work for the course. Then, inside that directory, you will need to create another directory to contain your work for this assignment.
 
@@ -137,6 +151,49 @@ Now move into that new cs16 directory with the <b>cd</b> command as follows:
 
 ```
 $ cd cs16
+```
+
+You should now be able to type `pwd` and see that you are in your `cs16` directory under your home directory, e.g.
+
+```
+$ pwd
+/cs/student/cgaucho/cs16
+$
+```
+
+## Step 2: Clone your lab02 repo
+
+Next, open a web browser to <https://github.com/ucsb-cs16-f21> and if you are not already logged in, login to GitHub.
+
+Under the repositories tab, you should see a repo called `lab02-YOUR-GITHUB-USERNAME`, for example `lab02-cgaucho`.
+
+Navigate to the page for this repo.  The URL will be something like this: 
+* <https://github.com/ucsb-cs16-f21/lab02-cgaucho>
+
+On that page, you'll see something like this (in this image, the user is `Avishek-De`, one of the TAs for CS16 in F21.  In your case,
+the text `Avishek-De` should be replaced with your GitHub id.)
+
+![image](https://user-images.githubusercontent.com/1119017/137171006-e35db304-04a3-487e-b9d0-8042783c757e.png)
+
+As you can see, there are two buttons, labelled HTTPS and SSH.  Try clicking on the HTTPS and SSH buttons and see what happens.  You'll notice that the URL changes between two formats, as shown in the table below.
+
+| When you click this button | Then the URL should look like this | Which one do we want? |
+|----------------------------|------------------------------------|-----------------------|
+| `HTTPS` | `https://github.com/ucsb-cs16-f21/lab02-AvishekDe.git` | NOT this | 
+| `SSH`   |  `git@github.com:ucsb-cs16-f21/lab02-AvishekDe.git` | THIS |
+
+Be sure that you click the SSH button and that your URL starts with `git@github.com` and ends with `lab02-YOUR-GITHUB-USERNAME` (e.g. `lab02-cgaucho`) before proceeding.
+
+Next, copy the URL that starts with `git@github.com` from the box.  We are going to type `git clone` at the command line (still inside your `cs16` directory) and then paste this URL, so that command looks like this:
+
+```
+$ git clone https://github.com/ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME.git
+```
+
+After you do that, you should see output such as this:
+
+```
+
 ```
 
 And create and move into a lab00 directory:
