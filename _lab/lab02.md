@@ -462,28 +462,58 @@ This involves several steps, explained in the table below.  Try each step as you
 
 | Step | Command to type | What is happening |
 |------|-----------------|-------------------|
-| 1.   | `git checkout -b main`  | This creates a new branch called `main`.  This will be the only branch we use in this course.  For the time being, it's not necessary to know what a branch is; just know that we only use the branch called `main` |
-| 2.   | `git add hello.cpp`. | This adds the file `hello.cpp` to something known as the *staging area*.  This prepares the file to be added to our git repo. |
-| 3.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
-| 4.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill |
-| 5.   | `git status` | 
+| 0.   | `git checkout -b main`  | This creates a new branch called `main`.  This will be the only branch we use in this course.  For the time being, it's not necessary to know what a branch is; just know that we only use the branch called `main` |
+| 1.   | `git add hello.cpp`. | This adds the file `hello.cpp` to something known as the *staging area*.  This prepares the file to be added to our git repo. |
+| 2.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
+| 3.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill. |
+| 4.   | `git push origin main` |  This pushes the changes from our local repo on CSIL to the original repo that we cloned (i.e. `origin` on github.com |
 
+Once you've gone through all of these steps, navigate to your repo on the web at this URL (but substituting in your userid in place of `YOUR-GITHUB-USERNAME`:
+* <https://github.com/ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME>
 
+You should see a listing for the file `hello.cpp`, and if you click on it, you should see the entire contents of the file, something like this:
+
+![image](https://user-images.githubusercontent.com/1119017/137179308-2a785c74-2605-41ae-b8ad-d70c85e5a870.png)
+
+If you don't find that, go back through the instructions and see if there is a step you missed, or ask for assistance from the staff.
+
+Once you see your code on GitHub, you are ready to try submitting on Gradescope.
 
 ## Step 5: Submitting your code to Gradescope
   
-You will need to turn in your correct <code>hello.cpp</code> file to Gradescope.
+Now, login to your Gradescope account at <https://gradescope.com>.  I suggest using the `School Credentials` button as shown here (lower left button, above the `Remember Me` box.)
+
+![image](https://user-images.githubusercontent.com/1119017/137179676-a9d78ff3-b2d0-4a64-8804-55176b7f86e6.png)
+
+This brings up a long list of schools, as shown below.  Scroll down to `University of California Santa Barbara NetID`.  It isn't listed with `UC Davis`, `UC Santa Cruz` and `UCLA` but, for some reason, under the spelled out name `University of California`.
+
+![image](https://user-images.githubusercontent.com/1119017/137179784-4fd4001f-39a8-47c1-ad58-e452030dff34.png)
+
+![image](https://user-images.githubusercontent.com/1119017/137179880-cf0cc01b-1e31-49c2-b2cb-734408723894.png)
+
+Once you login, you should find that CMPSC 16 is one of your courses.  If not, please contact the staff for assistance.
 
 The lab assignment `lab02` should appear in your Gradescope dashboard. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
 
-For this lab, you will need to upload your `hello.cpp` file. You either can navigate to your file, "drag-and-drop" them into the "Submit Programming Assignment" window, or even use a GitHub repo to submit your work. For now choose either of the first two options and follow the steps to upload `hello.cpp` to gradescope.
+You can do so in one of two ways:
+* You can directly upload your file `hello.cpp`
+* You can submit from your GitHub repo.
 
-If you already submitted something on Gradescope, it will take you to their "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update files for your submission.
+Once you submit something on Gradescope, it should take you to their "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update files for your submission.
 
 For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests and receive a 100/100.
 
 Congratulations on completing your first C++ program!
 
-If you are logged in remotely, you can log out using the <b>exit</b> command in UNIX:
+If instead, you see a problem, then read the error message and try to fix the problem.  You'll need to resubmit your file.    If/when you make changes, you should update the file on GitHub like this.  Note that this is the same list of steps as before, but without the step where we create the `main` branch (we only need to do that once.)
 
-<pre>$ exit</pre>
+| Step | Command to type | What is happening |
+|------|-----------------|-------------------|
+| 1.   | `git add hello.cpp`. | This adds the file `hello.cpp` to something known as the *staging area*.  This prepares the file to be added to our git repo. |
+| 2.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
+| 3.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill. |
+| 4.   | `git push origin main` |  This pushes the changes from our local repo on CSIL to the original repo that we cloned (i.e. `origin` on github.com |
+
+Once you are finished, you can use the command `exit` or `logout` to close the terminal session on CSIL.
+
+Congratulations on finishing your first lab involving ECI/CSIL/COE, GitHub, and Gradescope!
