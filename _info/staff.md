@@ -100,7 +100,10 @@ Bio coming soon.
 
 ## Jerry Wang, LA
 
-Bio coming soon.
+
+Hello, I am a senior CS student. My study interests are artificial intelligent and algorithm design.
+My office hour: TR 3:20pm - 4:20pm
+I'll hold my office hours outside chem 1179, together with professor Conrad under the tree. We can always move to Phelps Hall 3525 if needed.
 
 
 ## Cameron King, LA in training
