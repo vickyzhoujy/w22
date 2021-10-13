@@ -179,7 +179,7 @@ Be sure that you click the SSH button and that your URL starts with `git@github.
 Next, copy the URL that starts with `git@github.com` from the box.  We are going to type `git clone` at the command line (still inside your `cs16` directory) and then paste this URL, so that command looks like this:
 
 ```
-$ git clone https://github.com/ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME.git
+$ git clone git@github.com:ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME.git
 ```
 
 The first time you connect, you might see output like this (it may not look precisely the same, but similar):
