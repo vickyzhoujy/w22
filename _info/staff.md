@@ -55,8 +55,11 @@ Bio coming soon.
 
 ## Satyam Awasthi, TA
 
-Bio coming soon.
-
+Satyam Awasthi is an MS student in the Department of Computer Science at UC Santa Barbara. He completed his UG studies from IIT Kharagpur, India in 2020 and joined Samsung at SRI-N thereafter. As a software engineer at SRI-N, he broadly worked on Android app development. His current area of interest is web and app development along with computer networking.
+<pre>
+Office Hours: F 9AM - 11AM (online)
+              F 2PM - 4PM  (in-person)
+</pre>
 
 ## Avishek De, TA
 
