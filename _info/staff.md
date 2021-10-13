@@ -12,7 +12,8 @@ ready: true
 
 # Office Hours
 
-Office hours for the weeks of 09/23-09/25, and 09/26-10/02 will be online at <https://bit.ly/cs16-f21-office-hours> per the schedule below.
+So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
+
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTM1dLqCdZP8OmtsbsqgePxjGU0xE_Fvu_2S54pd9LiyxgtrrJA6VGal_gSrPx6rWE_vgS5fcoqItOj/pubhtml?gid=993902465&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
@@ -73,12 +74,12 @@ Bio coming soon.
 
 ## April Sanchez, TA
 
-Bio coming soon.
+April (she/her/hers) is a B.S/M.S student in the CS Department at UC Santa Barbara. April graduated with her B.S in CS in June 2021 and is currently completing her M.S. This is her first quarter as a TA in the CS Department but she has had prior experience as a ULA for courses such as CS8, CS16, CS32, CS40, CS64, and CS100. As an Early Research Scholars Program (ERSP) student, April did HCI research in UCSB's Four Eyes Lab, but her current research interests are in Operating Systems and Distributed Systems. April has also intered at Google as a Software Engineering Intern for the past three summers. In her free time, April enjoys baking and going to the gym.
 
 
 ## Ashley Wang, TA
 
-Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in the BS/MS program. I'm super excited to be TA-ing for this class and to help you get a better understanding of any fundamental C++ topics. I also did my undergrad here at UCSB, so if you have any questions about specific classes or my undergrad experience in general, feel free to reach out or swing by office hours. If you ever have any questions, the best way to contact me will be through Campuswire through DM, and I'll try to get back to you within 24 hours. I'm really looking forward to meeting y'all and getting to know you throughout the rest of the quarter!
+Bio coming soon.
 
 
 ## Shu Yang, TA
@@ -88,22 +89,17 @@ Bio coming soon.
 
 ## Arthur Gatin, LA
 
-<img src="CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
-
-Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+Bio coming soon.
 
 <div style="clear:both;"></div>
 
 ## Connor McIntosh, LA
 
-Connor McIntosh is an Undergraduate Learning Assistant for CS16 
-and a 4th year CS major from Ventura, CA. He is a member of the 
-Data Science club at UCSB who has worked on and started sports analytics 
-machine learning projects. Connor is also a member of the Gaucho Pep Band, 
-so you may see him playing the drums at basketball and soccer games this year.
+Bio coming soon.
 
 
 ## Jerry Wang, LA
+
 
 Hello, I am a senior CS student. My study interests are artificial intelligent and algorithm design.
 My office hour: TR 3:20pm - 4:20pm
