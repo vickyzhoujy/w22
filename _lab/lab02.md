@@ -7,24 +7,16 @@ assigned: 2021-10-11 08:00
 due: 2021-10-18 23:59:00.00-7
 ---
 
-
-# NOT READY YET 
-
-* NOT READY YET 
-* NOT READY YET 
-* NOT READY YET 
-* NOT READY YET 
-
-Please return to this lab after you receive an announcement that it is ready to work on. We are still making edits to account for changes that happened during the pandemic,
-and to adjust to the new pace of the course (where we start with zyBooks / repl.it to get you into C++ quickly, and introduce all of the other mechanics gradually).
-
 # Introduction
 
-This week's lab is design to help you learn about Gradescope and GitHub, two important tools you'll use in this course and that may be used in future CMPSC courses you may take at UCSB.
+This week's lab is design to help you learn about you CSIL/ECI/CoE account, GitHub and Gradescope, three important tools you'll use in this course and that may be used in future CMPSC courses you may take at UCSB.
 
-# Get setup with the tools for this course
+# Part 1: Get setup with the tools for this course
 
-## Create a CoE (ECI/CSIL) account if you don't have one already
+I've tried to parcel out these set up steps over several small assignments before we got to this point, so we can hope that
+you've already done everything in Part 1.  But go through the steps to check.
+
+## Step 1: Create a CoE (ECI/CSIL) account if you don't have one already
 
 You should have already done this before: it's the account you use to:
 * login on desktop machines in Phelps 3525
@@ -34,14 +26,13 @@ If you've already done that successfully, great; continue to the next step.
 
 Otherwise, create an account online at <a href="https://accounts.engr.ucsb.edu/create" target="_blank">https://accounts.engr.ucsb.edu/create</a>.
 
-
-## Add yourself to the GitHub organization
+## Step 2: Add yourself to the GitHub organization
 
 You should have already done this in [H04](https://ucsb-cs16.github.io/f21/hwk/h04/), but if not, please do it now:
 
 * <https://ucsb-cs16.github.io/f21/hwk/h04/>
 
-## Check that you are in the GitHub Org and have a `lab02-YOUR-GITHUB-USERNAME` repo.
+## Step 3: Check that you are in the GitHub Org and have a `lab02-YOUR-GITHUB-USERNAME` repo.
 
 In order to continue with the lab, you need to be a member of the GitHub organization, and you need to have a lab02 repo.
 
@@ -51,7 +42,7 @@ In order to continue with the lab, you need to be a member of the GitHub organiz
 * Assuming you got this far, look under the tab for repositories.  You should see a listing for a repository called `lab02-YOUR-GITHUB-USERNAME` where `YOUR-GITHUB-USERNAME` is your GitHub username (for example `lab02-cgaucho`).
   * If you don't see a `lab02-YOUR-GITHUB-USERNAME` repo, then ask a staff member for assistance.
 
-## Get setup with gradescope
+## Step 4: Get setup with gradescope
 
 We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have manually added everyone (using your @umail.ucsb.edu accounts) 
 currently enrolled in the course to the Gradescope system. 
@@ -63,7 +54,7 @@ Once you follow the instructions to set your password, you should have access to
 
 If you don't have `CMPSC 16` and `lab02` on Gradescope, please contact the staff for assistance.
 
-## Set up git and ssh keys on CSIL
+## Step 5: Set up git and ssh keys on CSIL
 
 In lecture, we covered two simple steps you should have done to prepare for today, listed below.  If you've already done them, great!  If not, now's the time:
 
@@ -71,11 +62,11 @@ In lecture, we covered two simple steps you should have done to prepare for toda
 * <https://ucsb-cs16.github.io/topics/github_ssh_keys/>
 
 
+That's it for preliminaries!   If everything above is sorted, we're ready to get started.
 
-# Clone a github repo, add a simple C++ program, submit on Gradescope
+# Part 2: Clone a github repo, add a simple C++ program, submit on Gradescope
 
-
-## Step 1: Open a Terminal on CSIL 
+## Step 6: Open a Terminal on CSIL 
 
 In this assignment, we'll be working on your CSIL/ECI/CoE to:
 * clone a GitHub repo
@@ -128,7 +119,7 @@ This should show the name of one of the virtual machines such as `csilvm-01.cs.u
 Note: While it isn't required for this lab, if you are interested in running programs that use graphics, you can use something called
 the Remote Desktop Protcol (RDP), which is explained in [this article](https://ucsb-engr.atlassian.net/wiki/spaces/EPK/pages/602046589/Remote+Access+to+ECI+Computing+Labs).   But I suggest that you skip over that for now, and just continue with the rest of this lab.  We'll return to RDP as and when it's needed for something in this course.
 
-## Step 2: Create cs16 directory
+## Step 7: Create cs16 directory
 
 Now that your environment is set up, you will need to create a directory (a folder is also called <i>directory</i> in Linux) that will contain all your work for the course. Then, inside that directory, you will need to create another directory to contain your work for this assignment.
 
@@ -162,7 +153,7 @@ $ pwd
 $
 ```
 
-## Step 2: Clone your lab02 repo
+## Step 8: Clone your lab02 repo
 
 Next, open a web browser to <https://github.com/ucsb-cs16-f21> and if you are not already logged in, login to GitHub.
 
@@ -262,7 +253,7 @@ a C++ program in this repository.  From here on out, we'll use the word *repo* a
 
 As an aside; knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers, especially when working with cloud computing, which is an increasing part of how work in our field gets done.  To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website with a good introductory page: [Useful unix commands](http://mally.stanford.edu/~sr/computing/basic-unix.html).
 
-## Step 4: Editing text files for programming <a name="step4"></a>
+## Step 9: Editing text files for programming <a name="step4"></a>
 
 Let's take a little detour on how to best create and modify text files. These will carry all the code (regardless of computer language) that we want to assemble, compile, and execute.
 
@@ -305,7 +296,7 @@ Try creating a file called `filename.cpp` with vim, and then deleting it with `r
 vim instructions below.  (The contents of `filename.cpp` don't really matter for now, since it's just for practice; you can
 type C++ code, or a shopping list, or anything you like.)
 
-## What do we need to know about vim for CS16?
+### What do we need to know about vim for CS16?
 
 While we stress that ultimately the choice of text editor is a personal choice, that we leave up to you, we do want every CS16 student to at the very least develop basic vim skills for a minimal set of commands, which we call the "basic eight".
 
@@ -314,7 +305,7 @@ Those are documented here: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
 There will be an assignment where you need to do a live demo for one of the TAs or LAs demonstrating that you know these basic eight skills in vim.
 
 
-## Brief overview of vim
+### Brief overview of vim
 
 Even if you are already getting comfortable with vim, please read through the following.  It may help give you some vocabulary to talk about `vim`, and also help you get more comfortable with how `vim` works.
 
@@ -354,7 +345,7 @@ Can you save and exit all at once?
 To learn more, including how to quit without saving, do search/replace, and copy/paste, see:  <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
 
 
-## More on vim
+### More on vim
 
 Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:
 
@@ -365,7 +356,7 @@ Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are
 
 In addition, there is the [Vim Adventures Game](https://vim-adventures.com/) that helps you learn vim while playing a video game.
 
-## Step 5: Create and edit a file containing a C++ program <a name="step5"></a>
+## Step 10: Create and edit a file containing a C++ program
 
 Now, in your `lab02-YOUR-USERNAME-HERE` directory, please create a single C++ program, following the steps below.
 
@@ -407,7 +398,7 @@ goes on the next line.
 
 You can adapt this line to achieve the objective of the assignment. <b>Remember that we need to print two lines, each with a newline at the end.</b> You can do this with one or two statements.
 
-## Step 6: Compile the Code <a name="step6"></a>
+## Step 11: Compile the Code 
 
 Now that the code is written, we need to <em>compile</em> it. This will be done using a special program called a <em>compiler</em>.
 
@@ -454,7 +445,7 @@ The compiler will try to give you hints on the line (in this case, it's complain
 If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error (which happens more than sometimes), you can search online to see when the error occurs in general. Once you have fixed the error, run the compilation command again. <i>Debugging</i> a program code is a necessary ritual in almost all programs written (even those written by expert coders). More on that in a later class.
 
 
-## Step 5: Adding the file hello.cpp to your GitHub repo
+## Step 12: Adding the file hello.cpp to your GitHub repo
 
 In this step, we'll add the `hello.cpp` file to your GitHub repo.
 
@@ -479,7 +470,7 @@ If you don't find that, go back through the instructions and see if there is a s
 
 Once you see your code on GitHub, you are ready to try submitting on Gradescope.
 
-## Step 5: Submitting your code to Gradescope
+## Step 13: Submitting your code to Gradescope
   
 Now, login to your Gradescope account at <https://gradescope.com>.  I suggest using the `School Credentials` button as shown here (lower left button, above the `Remember Me` box.)
 
@@ -504,6 +495,8 @@ Once you submit something on Gradescope, it should take you to their "Autograder
 For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests and receive a 100/100.
 
 Congratulations on completing your first C++ program!
+
+## Step 14: If you don't get a 100% score on Gradescope
 
 If instead, you see a problem, then read the error message and try to fix the problem.  You'll need to resubmit your file.    If/when you make changes, you should update the file on GitHub like this.  Note that this is the same list of steps as before, but without the step where we create the `main` branch (we only need to do that once.)
 
