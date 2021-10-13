@@ -110,10 +110,11 @@ The first time you connect to a particular machine, ssh may first ask you a ques
 The authenticity of host 'csil-[01-48].cs.ucsb.edu (128.111.43.14)' can't be established.
 RSA key fingerprint is 90:ab:6a:31:0b:81:62:25:9b:11:50:05:18:d3:1a:b5.
 Are you sure you want to continue connecting (yes/no)?
-
 ```
 
-Type <b>yes</b> and then ENTER to continue. It will next ask for your CoE account password. When you type it in, nothing will show on the screen (not even dots). However what you type is still being sent and once you are finished with your password, you can press ENTER to login.
+Please answer `yes`, and after that you won't see this message again. (This adds a line into the file `~/.ssh/known_hosts` for `csil.cs.ucsb.edu`, where `~` is the home directory on the computer from which you are connecting.)
+
+It will next ask for your CoE/CSIL/ECI account password. When you type it in, nothing will show on the screen (not even dots). However what you type is still being sent and once you are finished with your password, you can press ENTER to login.
 
 <b>You should now be remotely connected to CSIL!</b> You can make sure by typing the following command (which will tell you what machine you are currently issuing commands to):
 
@@ -190,26 +191,76 @@ Next, copy the URL that starts with `git@github.com` from the box.  We are going
 $ git clone https://github.com/ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME.git
 ```
 
+The first time you connect, you might see output like this (it may not look precisely the same, but similar):
+
+```
+The authenticity of host 'github.com (140.82.113.4)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:2: 192.30.255.113
+    ~/.ssh/known_hosts:5: 140.82.113.4
+    ~/.ssh/known_hosts:6: 140.82.112.3
+    ~/.ssh/known_hosts:7: 140.82.114.3
+    ~/.ssh/known_hosts:8: 140.82.113.3
+    ~/.ssh/known_hosts:10: 140.82.112.4
+    ~/.ssh/known_hosts:11: 140.82.114.4
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+Please answer `yes`, and after that you won't see this message again. (This adds a line into the file `~/.ssh/known_hosts` for `github.com`, this time, in your CSIL/ECI/CoE account's home directory.)
+
 After you do that, you should see output such as this:
 
 ```
-
+[pconrad@csilvm-03 cs16]$ git clone git@github.com:ucsb-cs16-f21/lab02-YOUR-GITHUB-ID
+Cloning into 'lab02-YOUR-GITHUB-ID'...
+warning: You appear to have cloned an empty repository.
 ```
 
-And create and move into a lab00 directory:
+You should now be able to type `ls` and see that inside your `cs16` directory, there is a directory called `lab02-YOUR-GITHUB-ID`.
+
+To move into this directory, please type:
 
 ```
-$ mkdir lab00
-$ cd lab00   
+$ cd lab02-YOUR-GITHUB-ID
 ```
 
-At any time, you can check what directory you are current in with the command **pwd**. It will output the full path of the current directory. For example, if you are inside your <b>lab00</b> directory, you might see:
+Once you do, if you type `pwd`, you should see output such as this (but with your ECI account id in place of `chrisgaucho`, and your GitHub id in place of `cgaucho`):
 
 ```
-/cs/student/yourcsilname/cs16/lab00
+$ pwd
+/cs/student/chrisgaucho/cs16/lab02-cgaucho
+$ 
 ```
 
-Knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers. To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website with a good introductory page: [Useful unix commands](http://mally.stanford.edu/~sr/computing/basic-unix.html).
+If you type `ls` at this point, it should appear to be an empty directory:
+
+```
+$ ls
+$ 
+```
+
+However, if you type `ls -a`, you'll see that there are listings for  `.`, `..` and a directory called `.git`:
+
+```
+$ ls -a
+.  ..  .git
+$ 
+```
+
+Each of these is normally *hidden* because the name starts with a dot (`.`).  We add `-a` to the `ls` command to see
+hidden files.   The hidden folder/directory `.git` is what distinguishes a regular plain old folder/directory from one
+that is a *git repository*.   The various versions of our program are stored inside the `.git` folder, along with other
+data that `git` uses to keep track of information about the repository.  
+
+For now, and unless/until you know what you are 
+doing with `git` internals, it is best to leave the contents of the `.git` directory alone; we manipulate the information
+inside `.git` using git commands.
+
+Now that we have an empty repository (i.e. an empty directory, apart from the `.git` directory), we are ready to create
+a C++ program in this repository.  From here on out, we'll use the word *repo* as short for *repository* (they mean the same thing.)
+
+As an aside; knowing how to navigate a UNIX environment and issue UNIX commands is VERY valuable to computer scientists and engineers, especially when working with cloud computing, which is an increasing part of how work in our field gets done.  To learn more UNIX commands, there are lot of cool Web resources and books on the topic. This is one website with a good introductory page: [Useful unix commands](http://mally.stanford.edu/~sr/computing/basic-unix.html).
 
 ## Step 4: Editing text files for programming <a name="step4"></a>
 
@@ -243,6 +294,24 @@ To create or make changes to a file (let's say it's called "filename.cpp"), you'
 	$ vim filename.cpp
 ```
 
+If you want to practice creating a file in vim, you can do so in the `lab02-YOUR-USERNAME-HERE` directory.   You can remove files
+that you no longer want (e.g. ones you create for practice), with the `rm` command, e.g.
+
+```
+$ rm filename.cpp
+```
+
+Try creating a file called `filename.cpp` with vim, and then deleting it with `rm filename.cpp` as you work through the
+vim instructions below.  (The contents of `filename.cpp` don't really matter for now, since it's just for practice; you can
+type C++ code, or a shopping list, or anything you like.)
+
+## What do we need to know about vim for CS16?
+
+While we stress that ultimately the choice of text editor is a personal choice, that we leave up to you, we do want every CS16 student to at the very least develop basic vim skills for a minimal set of commands, which we call the "basic eight".
+
+Those are documented here: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
+
+There will be an assignment where you need to do a live demo for one of the TAs or LAs demonstrating that you know these basic eight skills in vim.
 
 
 ## Brief overview of vim
@@ -284,13 +353,8 @@ Can you save and exit all at once?
 
 To learn more, including how to quit without saving, do search/replace, and copy/paste, see:  <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
 
-## What do we need to know about vim for CS16?
 
-While we stress that ultimately the choice of text editor is a personal choice, that we leave up to you, we do want every CS16 student to at the very least develop basic vim skills for a minimal set of commands, which we call the "basic eight".
-
-Those are documented here: <https://ucsb-cs16.github.io/topics/vim_basic_eight/>
-
-There will be an assignment where you need to do a live demo for one of the TAs or LAs demonstrating that you know these basic eight skills in vim.
+## More on vim
 
 Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are multiple online resources that you can look at and here are some of them:
 
@@ -302,6 +366,8 @@ Again, to learn how to use vim, there is no substitute for PRACTICE!!! There are
 In addition, there is the [Vim Adventures Game](https://vim-adventures.com/) that helps you learn vim while playing a video game.
 
 ## Step 5: Create and edit a file containing a C++ program <a name="step5"></a>
+
+Now, in your `lab02-YOUR-USERNAME-HERE` directory, please create a single C++ program, following the steps below.
 
 This assignment only needs you to write a program that prints out two lines on the display, and nothing else. <b>The output should look EXACTLY as follows</b> (no space before or after each line, except the 2 newlines):
 
@@ -323,6 +389,7 @@ int main() {
     return 0;
 }
 ```
+
 Go ahead and type this in to the `hello.cpp` file. Alternatively, you can copy and paste it directly from this page.
 
 Next, you will need to replace the comment with code to print out the expected output. Comments in C++ are lines that start with <b>//</b> or text between <b>/*</b> and <b>*/</b>. The second type can span multiple lines.
@@ -385,6 +452,23 @@ If you run the <b>g++</b> command and are unsuccesful with your compilation, the
 The compiler will try to give you hints on the line (in this case, it's complaining about line 10) where the error occurs, and also about what the error is (in this case a missing semicolon). You will also note that, in this case, an output executable file is not produced.
 
 If you encounter an error, use the compiler hints and examine the line in question. If the compiler messsage is not sufficient to identify the error (which happens more than sometimes), you can search online to see when the error occurs in general. Once you have fixed the error, run the compilation command again. <i>Debugging</i> a program code is a necessary ritual in almost all programs written (even those written by expert coders). More on that in a later class.
+
+
+## Step 5: Adding the file hello.cpp to your GitHub repo
+
+In this step, we'll add the `hello.cpp` file to your GitHub repo.
+
+This involves several steps, explained in the table below.  Try each step as you follow through the explanataion:
+
+| Step | Command to type | What is happening |
+|------|-----------------|-------------------|
+| 1.   | `git checkout -b main`  | This creates a new branch called `main`.  This will be the only branch we use in this course.  For the time being, it's not necessary to know what a branch is; just know that we only use the branch called `main` |
+| 2.   | `git add hello.cpp`. | This adds the file `hello.cpp` to something known as the *staging area*.  This prepares the file to be added to our git repo. |
+| 3.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
+| 4.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill |
+| 5.   | `git status` | 
+
+
 
 ## Step 5: Submitting your code to Gradescope
   
