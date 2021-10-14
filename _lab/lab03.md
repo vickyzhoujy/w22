@@ -450,13 +450,18 @@ If you are logged in remotely, you can log out using the exit command:
 
 ## Grading rubric
 
-In addition to the points given by gradescope, our staff will be manually grading your code for style. Code style, includes but is not limited to the following:
+Though it does not apply to this lab, in future weeks, in addition to the points given by gradescope, our staff will be manually grading your code for style.   So you may want to look over your code for the following items.
+
+Code style, includes but is not limited to the following:
 
 1. Code can be easily understood by humans familiar with C++ (including both the author(s) of the code, and non-authors of the code.)
-2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs
-3. Variable names choices are reasonable
-4. Code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions
-5. Code is not unnecessarily or unreasonably complex when a simpler solution is available
+2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs.
+3. Variable names choices are reasonable.
+4. Code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions.
+5. Code is not unnecessarily or unreasonably complex when a simpler solution is available.
+
+If you'd like feedback on your coding style, you may ask one of the staff during discusssion section or office hours.
+
 
 # Github Resources
 * [Overview of git](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
