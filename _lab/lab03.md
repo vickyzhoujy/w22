@@ -463,10 +463,4 @@ Code style, includes but is not limited to the following:
 If you'd like feedback on your coding style, you may ask one of the staff during discusssion section or office hours.
 
 
-# Github Resources
-* [Overview of git](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
-
-* [Creating a github repo under an organization](https://ucsb-cs16.github.io/topics/github_com_create_private_repo_under_org/).
-
-* [About gitignore](https://ucsb-cs56-pconrad.github.io/topics/git_gitignore/)
 
