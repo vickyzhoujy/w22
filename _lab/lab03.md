@@ -405,15 +405,44 @@ You can wait until all three are finished, but you are encouraged, instead, to d
 For example, to commit the program `block.cpp` to GitHub, use these steps:
 
 
+| Step | Command to type | What is happening |
+|------|-----------------|-------------------|
+| 1.   | `git add block.cpp`. | This adds the file `block.cpp` to something known as the *staging area*.  This prepares the file to be added to our git repo. |
+| 2.   | `git status` | This command shows us the current status of our repo.  We should see that the file `block.cpp` appears in green, as a file "to be committed". |
+| 3.   | `git commit -m "add block.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill. |
+| 4.   | `git push origin main` |  This pushes the changes from our local repo on CSIL to the original repo that we cloned (i.e. `origin` on github.com |
+{:.table .table-sm .table-striped .table-bordered}
+
+You can repeat the steps above for the files `pi.cpp` and `min4.cpp` as/when you have them ready.
+
+Note that if you subsequently make changes to any of the files `block.cpp`, `pi.cpp` or `min4.cpp`, the process to update GitHub *is the same*&mdash;that is, you still use `git add filename.cpp` when you want `git` to pick up changes to files that are already in the repo.
+
+At any time, you can type the `git status` command and it will help you determine which files, if any, are out of date in your repo. For each out of date file, the sequence `git add filename.cpp`, then `git commit -m "message goes here"` then `git push origin main` should get the changes published to your GitHub repo.
+
+You can visit your repo at any time by logging in to GitHub, and visiting <https://github.com/ucsb-cs16-f21>, where you should see it in the list of repos to which you have access.  If you don't see it there, ask the staff for assistance.
 
 
-## Step 7: Submit your code on gradescope<a name="submit"></a>
+## Step 7: Submit your code on gradescope
 
 Once you are satisfied that your program is correct, then it's time to submit it.
 
-Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site: CMPTGCS 1A. Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of uploading files from your local machine or submitting the code that is in a github repo. Select the second option and select your github repo for this assignment. You should receive 100/100 for a completely correct program.
+Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site: CMPSC 16.  Select this assignment. 
 
-## Done!<a name="done"></a>
+Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of uploading files from GitHub.
+
+You should receive 100/100 for a set of completely correct programs, and partial credit if one or two of the three is correct.
+
+If any errors are shown, you can address that with this sequence of steps:
+* Go back to edit the file with `vim filename.cpp` and make the needed changes
+* Recompile with `make filename`
+* Test interactively by running `./filename` 
+* Use this sequence of steps to update GitHub:
+  * `git add filename.cpp`
+  * `git commit -m "message goes here explaining what you did"` 
+  * `git push origin main`
+* Resubmit on Gradescope from your GitHub repo.
+
+## Step 8: Done!<a name="done"></a>
 
 If you are logged in remotely, you can log out using the exit command:
 
