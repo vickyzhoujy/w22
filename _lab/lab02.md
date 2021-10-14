@@ -458,6 +458,7 @@ This involves several steps, explained in the table below.  Try each step as you
 | 2.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
 | 3.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill. |
 | 4.   | `git push origin main` |  This pushes the changes from our local repo on CSIL to the original repo that we cloned (i.e. `origin` on github.com |
+{:.table .table-sm .table-striped .table-bordered}
 
 Once you've gone through all of these steps, navigate to your repo on the web at this URL (but substituting in your userid in place of `YOUR-GITHUB-USERNAME`:
 * <https://github.com/ucsb-cs16-f21/lab02-YOUR-GITHUB-USERNAME>
@@ -506,6 +507,7 @@ If instead, you see a problem, then read the error message and try to fix the pr
 | 2.   | `git status` | This command shows us the current status of our repo.  We should see that the file `hello.cpp` appears in green, as a file "to be committed". |
 | 3.   | `git commit -m "add hello.cpp to repo"` | This commits the files in the staging area to the local repo on CSIL.  The `-m` stands for message, and the part in the quotes is the message.  Every commit has a message to our future selves and to other programmers about what we were doing when we made this commit.  Learning how to write good commit messages is an important skill. |
 | 4.   | `git push origin main` |  This pushes the changes from our local repo on CSIL to the original repo that we cloned (i.e. `origin` on github.com |
+{:.table .table-sm .table-striped .table-bordered}
 
 Once you are finished, you can use the command `exit` or `logout` to close the terminal session on CSIL.
 
