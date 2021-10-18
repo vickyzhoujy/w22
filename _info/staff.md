@@ -86,7 +86,7 @@ April (she/her/hers) is a B.S/M.S student in the CS Department at UC Santa Barba
 
 ## Ashley Wang, TA
 
-Bio coming soon.
+Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in the BS/MS program. I'm super excited to be TA-ing for this class and to help you get a better understanding of any fundamental C++ topics. I also did my undergrad here at UCSB, so if you have any questions about specific classes or my undergrad experience in general, feel free to reach out or swing by office hours. If you ever have any questions, the best way to contact me will be through Campuswire through DM, and I'll try to get back to you within 24 hours. I'm really looking forward to meeting y'all and getting to know you throughout the rest of the quarter!
 
 
 ## Shu Yang, TA
@@ -96,13 +96,18 @@ Bio coming soon.
 
 ## Arthur Gatin, LA
 
-Bio coming soon.
+<img src="staff/CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
-<div style="clear:both;"></div>
+Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+
 
 ## Connor McIntosh, LA
 
-Bio coming soon.
+Connor McIntosh is an Undergraduate Learning Assistant for CS16 
+and a 4th year CS major from Ventura, CA. He is a member of the 
+Data Science club at UCSB who has worked on and started sports analytics 
+machine learning projects. Connor is also a member of the Gaucho Pep Band, 
+so you may see him playing the drums at basketball and soccer games this year.
 
 
 ## Jerry Wang, LA
