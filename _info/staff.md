@@ -120,7 +120,7 @@ I'll hold my office hours outside chem 1179, together with professor Conrad unde
 
 ## Cameron King, LA in training
 
-Bio coming soon.
+Cameron is a 4th year CS major and ULA in training. He has taken all the lower division courses at UCSB, including this class. Cameron interned at Amazon last summer in the Search Science and AI department. When he isn't working, Cameron enjoys kpop, the gym, Genshin Impact, and ricing his Linux partition.
 
 
 ## Sydney Lim, LA in training
