@@ -23,15 +23,15 @@ So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; 
 
 ## Course instructor: Phill Conrad
 
-* Email: Please use Campuswire rather than email for course related communication.  You can send private messages on Campuswire to either the entire course staff or directly to me. If you must email me using my email address (phtcon@ucsb.edu), please put `CS16` in the subject line, and know that there may be a delay in the response. 
- 
+* Email: Please use Campuswire rather than email for course related communication.  You can send private messages on Campuswire to either the entire course staff or directly to me. If you must email me using my email address (phtcon@ucsb.edu), please put `CS16` in the subject line, and know that there may be a delay in the response.
+
 
 ## Course TAs
 * {{site.ta_names}}
 * Contact via Campuswire.
 
 ## Learning Assistants (LAs)
-In addition to the instructor and TA, there will be some undergraduate Learning Assistants (LAs) in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours). 
+In addition to the instructor and TA, there will be some undergraduate Learning Assistants (LAs) in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours).
 
 ## Learning Assistants in training (LAs in training)
 
@@ -63,7 +63,11 @@ Office Hours: F 9AM - 11AM (online)
 
 ## Avishek De, TA
 
-Bio coming soon.
+Avishek De is a first year MS student in the department of Computer Science. He completed his undergraduate degree in Electrical Engineering with a minor in Computer Science from Indian Institute of Technology (IIT), Roorkee. He also has over four years of work experience as an Associate Software Developer at Goldman Sachs. His current area of interest is cloud distribution systems and associated frameworks. Avishek is well-versed with Object Oriented Programming languages such as Java and C++ and looks forward to working with CS16 students to break down difficult concepts and get everyone to enjoy programming in C++. You can also reach out to him for questions and suggestions related to internships. In his free time, Avishek loves to travel and play DOTA2.
+<pre>
+Office Hours: T 6PM - 8PM (in-person)
+              R 5PM - 7PM (in-person)
+</pre>
 
 
 ## Kevin Heffernan, TA
@@ -103,10 +107,10 @@ Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS1
 
 ## Connor McIntosh, LA
 
-Connor McIntosh is an Undergraduate Learning Assistant for CS16 
-and a 4th year CS major from Ventura, CA. He is a member of the 
-Data Science club at UCSB who has worked on and started sports analytics 
-machine learning projects. Connor is also a member of the Gaucho Pep Band, 
+Connor McIntosh is an Undergraduate Learning Assistant for CS16
+and a 4th year CS major from Ventura, CA. He is a member of the
+Data Science club at UCSB who has worked on and started sports analytics
+machine learning projects. Connor is also a member of the Gaucho Pep Band,
 so you may see him playing the drums at basketball and soccer games this year.
 
 
@@ -126,5 +130,3 @@ Bio coming soon.
 ## Sydney Lim, LA in training
 
 Bio coming soon.
-
-
