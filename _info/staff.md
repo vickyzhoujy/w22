@@ -4,7 +4,7 @@ layout: default
 ready: true
 ---
 
-
+Online Office Hours for CS16 F21 are held here: <https://bit.ly/cs16-f21-office-hours>
 
 <style>
  iframe { width: 100%; height: 550px; }
