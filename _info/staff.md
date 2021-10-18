@@ -91,7 +91,10 @@ Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in t
 
 ## Shu Yang, TA
 
-Bio coming soon.
+Shu (she/her/hers) is a M.S student in the CS Department at UC Santa Barbara. As an Research Intern student, Shu did machine learning and system research in UCSB Lab with Yufei Ding. This is the first quarter as a TA in CS Department but she had prior experience as a grader for courses like CS24, CS64, CS154 and CS111. Shu has also intered at Facebook as a Production Engineering Intern in Summer2021. In her free time, she enjoys cooking and watching anime.
+<pre>
+Office Hours: Thursday 9AM - 1PM (in-person). Welcome!
+</pre>
 
 
 ## Arthur Gatin, LA
