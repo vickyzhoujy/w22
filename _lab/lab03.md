@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Crunching numbers: Loops and Functions"
 assigned: 2021-10-18 12:00
 due: 2021-10-25 23:59:00
