@@ -9,4 +9,4 @@ Slides: <https://docs.google.com/presentation/d/1bVQm_SuAMpQO8VFFcU3kvf2OPmXILVv
 
 Code: <https://github.com/ucsb-cs16-f21/lectures/tree/main/10.14>
 
-Video: 
+Video: <https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7c1884c1-4605-4bc0-a854-adc1017cc3d3#>
