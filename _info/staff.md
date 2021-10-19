@@ -95,14 +95,17 @@ Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in t
 
 ## Shu Yang, TA
 
-Bio coming soon.
+Shu (she/her/hers) is a M.S student in the CS Department at UC Santa Barbara. As an Research Intern student, Shu did machine learning and system research in UCSB Lab with Yufei Ding. This is the first quarter as a TA in CS Department, but she had prior experience as a grader for courses like CS24, CS64, CS154 and CS111. Shu has also intered at Facebook as a Production Engineering Intern in Summer2021. In her free time, she enjoys cooking and watching anime.
+<pre>
+Office Hours: Thursday 9AM - 1PM (in-person). Welcome!
+</pre>
 
 
 ## Arthur Gatin, LA
 
-<img src="staff/CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
-Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+ Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+
 
 
 ## Connor McIntosh, LA
