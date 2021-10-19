@@ -1,6 +1,6 @@
 ---
-desc: Seventh Lecture: more on functions
-num: lect06
+desc: "Seventh Lecture: more on functions"
+num: lect07
 lecture_date: 2021-10-14
 ready: true
 ---
