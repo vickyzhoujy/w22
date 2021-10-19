@@ -127,4 +127,8 @@ Bio coming soon.
 
 Bio coming soon.
 
+## Arthur Phan, LA in training.
+
+Hey all! I'm the second Arthur for this course! My pronouns are he/him and I am a 5th year finishing my CS degree this Fall quarter! I'm looking forward to helping out as you'll be learning C++, CSIL, and Github for the first time, as well as all the theoretical concepts that will be fundamental to your CS courses here at UCSB! 
+
 
