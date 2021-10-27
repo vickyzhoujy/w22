@@ -4,8 +4,21 @@ num: lab04
 ready: true
 desc: "Counting ducks: File I/O and flow control"
 assigned: 2021-10-27 12:00
-due: 2021-11-03 23:59:00
+due: 2021-11-05 23:59:00
 ---
+
+# What to work on today
+
+Your choice:
+* Study for the exam. There are several options here:
+  * Go back through zyBook chapters and rework the exercises.  I suggest reverse order: Chapter 7, then 6, etc. since the harder questions are likely to be in the later chapters.  Read Chapter 8 too, even though there are no exercises in it.
+  * Go back through the lab02 and lab03 instructions and be sure you are comfortable with the Unix and GitHub steps described there.  If you skimmed over instructions, now go back and read them carefully.  They may be a source of exam questions.
+  * Rewatch videos (possibly fast-forwarding through parts that you already understand well.)
+* Work on the new zyBook chapter, Chapter 9 about files.  
+  * This will not be on the exam, but it is helpful for working on lab04.
+  * The due date for Chapter 9 in the zyBook is one week from today (with the grace period extending one week beyond that.)
+  * The due date for the lab extends then a couple of days beyond the due date for Chapter 9.
+* Jump right in on lab04 (the programming exercise described below).
 
 # Introduction
 
@@ -23,11 +36,14 @@ By the time you have completed this lab, you should be able to:
 
 # Helpful background material
 
-The following code from lecture may help you complete this assignment:
+You might find it useful to work though Chapter 9 in the zyBook, named "Brief introduction to File I/O" before completing this lab.
+
+The following code from lecture may also help you complete this assignment:
 
 * <https://github.com/ucsb-cs16-f21/lectures/tree/main/10.19/files>
 
 It illustrates some code similar to what you'll need to count things.
+
 
 ## Step 0: Log on to CSIL and bring up a terminal window. 
 
