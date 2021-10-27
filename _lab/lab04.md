@@ -21,6 +21,14 @@ By the time you have completed this lab, you should be able to:
 * Run simple C++ programs both with and without a single command line parameter
 
 
+# Helpful background material
+
+The following code from lecture may help you complete this assignment:
+
+* <https://github.com/ucsb-cs16-f21/lectures/tree/main/10.19/files>
+
+It illustrates some code similar to what you'll need to count things.
+
 ## Step 0: Log on to CSIL and bring up a terminal window. 
 
 As a reminder, here's how to get a terminal:
