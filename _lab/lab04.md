@@ -150,12 +150,12 @@ If you don't see those files, go back through the instructions and make sure you
 
 The first program we are going to compile and run is one that demonstrates a for loop in C++.   
 
-In your lab03 directory, you should have a program called sample01.cpp that we copied in the previous step. Here's how you can put yourself in that directory (though you should already be there):
+In your `lab04-GITHUBID` directory, you should have a program called `sample01.cpp` that we copied in the previous step. Here's how you can put yourself in that directory (though you should already be there):
 
 ```
--bash-4.2$ cd ~/cs16/lab03_jgaucho/
+-bash-4.2$ cd ~/cs16/lab04-jgaucho
 -bash-4.2$ pwd
-/cs/faculty/richert/cs16/lab03_jgaucho
+/cs/faculty/richert/cs16/lab04-jgaucho
 -bash-4.2$
 ```
 
@@ -241,7 +241,8 @@ You are now ready to move to the next step.
 
 Tip: *If you make a mistake that results in an "infinite loop", i.e. the window is just scrolling by without stopping, you can use CTRL+C (hold down Control and type C) to stop the program.*
 
-## Step 6: Reading from input files and counting ducks <a name="step6"></a>
+## Step 7: Reading from input files and counting ducks 
+
 The next files we are going to look at are not C++ code, but rather data files.
 
 Use the "cat" command to look at the contents of animals01.txt and animals02.txt. You should get results like these:
@@ -304,9 +305,9 @@ too.
 
 Once you've done that, you are ready for the next step.
 
-## Step 7: A more detailed counting program 
+## Step 8: A more detailed counting program 
 
-Your job is now to copy countDucks.cpp to a file myProg02.cpp and make some changes.
+Your job is now to copy `countDucks.cpp` to a file `myProg02.cpp` and make some changes.
 
 First, let's stipulate that you may assume that everything in the input file is an animal, one per line&mdash;if someone adds "potato" or "bicycle" to the file, you can just assume that potato and bicycle are now to be considered types of animals.
 
@@ -353,10 +354,84 @@ Note that we will also test your program on other input files, so you should too
 
 When you are satisfied that the count is correct and that format of the output is precise, you are ready to submit your code for grading.
 
-## Step 8: Push your changes to GitHub
+## Step 9: Push your changes to GitHub
 
+You don't have to wait until you are completely finished with your code to push your changes to GitHub.  You can do it at any time during the assignment.  In fact, each time you complete part of an assignment, or are finished for the day, that's a really good time to update GitHub with the changes to your code.
 
-## Step 9: Submit to Gradescope
+You can see which files are "out of date" with GitHub by typing the command:
+
+```
+git status
+```
+
+Files that show up in red are files that have been updated or created since the last time GitHub was updated.  For each of these, you can use
+a `git add filename` command to add them to the next commit, e.g.
+
+```
+git add countDucks.cpp
+git add myProg02.cpp
+```
+
+You can also add all files ending in `.cpp` like this:
+
+```
+git add *.cpp
+```
+
+Type `git status` again to see the files that will be added to the next commit.
+
+Then, you can type this, substituting an appropriate message.  Be sure your message has `""` around it.
+
+```
+git commit -m "half way done with lab04, but stuck on loop in myProg02.cpp`
+```
+
+or
+
+```
+git commit -m "finished with lab04, going to test on Gradescope"
+```
+
+This makes a commit, but *only on your local machine* (CSIL if you are working there.)
+
+To update the files on github.com, use this:
+
+```
+git push origin main
+```
+
+Go to: <https://github.com/ucsb-cs16-f21>, find your `lab04-GITHUBID` repo, and make sure that the changes are there.  You should see your commit message beside the file that are changed.
+
+Then you should be able to submit to Gradescope.
+
+## Step 10: Submit to Gradescope
+
+Once you are satisfied that your program is correct, then it's time to submit it.
+
+Log into your account on [https://www.gradescope.com/](https://www.gradescope.com/) and navigate to our course site: CMPSC 16.  Select this assignment. 
+
+Then click on the "Submit" button on the bottom right corner to make a submission. You will be given the option of uploading files from GitHub.
+
+You should receive 100/100 for a set of completely correct programs, and partial credit if one or two of the three is correct.
+
+Note that if the assignment requires more than one program, and you are looking for partial credit, you need to at least submit a minimal "empty" main program
+for the  `.cpp` files that are required, but not yet complete.  Here is what an "empty main" looks like:
+
+```cpp
+int main() {
+  return 0;
+}
+```
+
+If any errors are shown, you can address that with this sequence of steps:
+* Go back to edit the file with `vim filename.cpp` and make the needed changes
+* Recompile with `make filename`
+* Test interactively by running `./filename` 
+* Use this sequence of steps to update GitHub:
+  * `git add filename.cpp`
+  * `git commit -m "message goes here explaining what you did"` 
+  * `git push origin main`
+* Resubmit on Gradescope from your GitHub repo.
 
 
 ## Style Guidelines
