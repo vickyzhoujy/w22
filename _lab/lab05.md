@@ -191,7 +191,7 @@ Submit working versions of your code on github using the commands:
 ```
 git add *.cpp *.h
 git commit -m "implemented utility function - nameof function()"
-git push origin master
+git push origin main
 ```
 
 You must only proceed with the rest of the lab once you have implemented all the utility functions and pass the provided test cases. This is because for other files that you will be editing later, you will NEED functions isOdd, isEven and isPrime. Once you get them working, you will be able to call them in other files and KNOW that they work properly. You will not have to rewrite the function definition.
