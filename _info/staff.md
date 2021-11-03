@@ -72,7 +72,13 @@ Office Hours: T 6PM - 8PM (in-person)
 
 ## Kevin Heffernan, TA
 
-Bio coming soon.
+<img src="staff/CS16-F21-Kev.png" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+My name is Kevin, but call me Kev. I am a Master of Technology Management student who recently studied my undergraduate in CS at UCSB. I also recently worked at Appfolio as a Software Quality Assurance Engineer before returning to UCSB. 
+
+I love to chat. Please come to me with any questions about homework, labs, or career planning. I would be happy to help you along.
+
+My hobbies include dancing, singing, beach volleyball, and spending with with the people I love. 
 
 
 ## Lucas Relic, TA
