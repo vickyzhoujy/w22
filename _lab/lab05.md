@@ -42,7 +42,7 @@ git config --global init.defaultBranch main
 ## Step 2: Find your lab05-GITHUBID repo, and clone it into `~/cs16`
 
 * Use `cd` to move into your `~/cs16` directory.
-* Find the repo `lab04-GITHUBID` in the GitHub org for this course.
+* Find the repo `lab05-GITHUBID` in the GitHub org for this course.
 * Copy the ssh URL for that github repo (it should start with `git@github.com`, not `https`) 
 * Use `git clone PASTE-SSH-URL-HERE` to clone that repo into your `~/cs16` directory. 
  
