@@ -138,4 +138,7 @@ Cameron is a 4th year CS major and ULA in training. He has taken all the lower d
 
 ## Sydney Lim, LA in training
 
-Bio coming soon.
+Hello everyone! My name is Sydney, and I'm a fourth-year CE major in the 5-year BS/MS program in CS. CMPSC 16 was the first CS course I took at UCSB. I remember the struggles that I faced as a first-year learning C++ for the first time, so I hope to help you guys get a strong foundation in this class in preparation for later courses. This is my first quarter being a ULA, so I'll be observing for the first half of the quarter. I look forward to helping out in sections and holding office hours in the second half!
+
+Feel free to talk to me about classes in the CMPSC/ECE department, GE recommendations, or general college advice. I also play regularly for UCSB Badminton, so if you're interested, you can probably find me in the Pavilion Gym on the weekends!
+
