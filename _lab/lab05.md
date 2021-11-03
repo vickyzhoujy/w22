@@ -15,11 +15,81 @@ due: 2021-11-17 23:59:00
 * It's fine if you want to wait for that lecture to start it, and work on zyBooks content in the meantime.
 
 
-# NOTE: Lab is still being edited
-# NOTE: Lab is still being edited
-# NOTE: Lab is still being edited
-# NOTE: Lab is still being edited
-# NOTE: Lab is still being edited
+## Step 0: Log on to CSIL and bring up a terminal window. 
+
+As a reminder, here's how to get a terminal:
+
+| From | Get a terminal on CSIL by |
+|------|---------------------------|
+| Machines in Phelps 3525 | Go to the <strong>Application</strong> Menu, then <strong>System Tools</strong>, then <strong>Terminal Window</strong> |
+| Windows | Use Powershell, then `ssh username@csil.cs.ucsb.edu` |
+| MacOS | Use Terminal, then `ssh username@csil.cs.ucsb.edu` |
+| Unix/Linux | Use a terminal shell, then `ssh username@csil.cs.ucsb.edu` |
+{:.table .table-sm .table-striped .table-bordered}
+
+## Step 1: Set default git branch
+
+(If you already did this step during a previous lab, you may skip it; you only need to do it once.)
+
+In October 2020, GitHub changed their default branch name from `master` to `main`.   
+
+To configure  `git` (for your CSIL account) for this change, we can run the following command.  
+
+```
+git config --global init.defaultBranch main
+```
+
+## Step 2: Find your lab05-GITHUBID repo, and clone it into `~/cs16`
+
+* Use `cd` to move into your `~/cs16` directory.
+* Find the repo `lab04-GITHUBID` in the GitHub org for this course.
+* Copy the ssh URL for that github repo (it should start with `git@github.com`, not `https`) 
+* Use `git clone PASTE-SSH-URL-HERE` to clone that repo into your `~/cs16` directory. 
+ 
+  You may see this message; if so, that's normal:
+  ```
+  warning: You appear to have cloned an empty repository.
+  ```
+ 
+* Use `cd lab05-GITHUBID` to move yourself into that directory.
+
+
+## Step 3: Add a remote for starter code and pull it in
+
+We've explained git remotes in a few previous labs, so in this lab, I'll only give the short version of the instructions.  But be sure that you've read
+through the explanation of git remotes in previous labs, since it may show up on homework or exam questions about git remotes.
+
+
+The starter code lives in this repo, which you can visit in a web browser to look at the starter code:
+* <https://github.com/ucsb-cs16-f21/STARTER-lab05>
+
+To add a remote for this repo, we'll use the ssh url, like this:
+
+```
+git remote add starter git@github.com:ucsb-cs16-f21/STARTER-lab05.git
+```
+
+To pull in the starter code, use:
+
+```
+git pull starter main
+```
+
+Then use an `ls` command, and you should see new files in your directory.  That should look something like this:
+
+```
+$ ls
+Makefile		arrayToStringTest.cpp	maxOfArray.cpp		minOfArrayTest.cpp	tddFuncs.cpp
+README.md		countEvens.cpp		maxOfArrayErrorTest.cpp	sumOdds.cpp		tddFuncs.h
+arrayBoundsDemo.cpp	countEvensTest.cpp	maxOfArrayTest.cpp	sumOddsTest.cpp		utility.cpp
+arrayFuncs.h		countPrimes.cpp		minOfArray.cpp		sumOfArray.cpp		utility.h
+arrayToString.cpp	countPrimesTest.cpp	minOfArrayErrorTest.cpp	sumOfArrayTest.cpp	utilityTest.cpp
+$ 
+```
+
+With these files in place, you are ready to start coding.
+
+If you don't see those files, go back through the instructions and make sure you didn't miss a step.
 
 
 ## Step 4: Reviewing Separate Compilation
@@ -27,13 +97,12 @@ due: 2021-11-17 23:59:00
 The files in your directory this week use separate compilation, 
 that is each program is not necessarily taking all of its code from a single `.cpp` source file.
 
-In Lecture, we will introduce the idea of separate compilation, 
+In lecture, we will introduce the idea of separate compilation, 
 where your C++ program may be divided among multiple source files. 
 The following web page explains more about separate compilation, 
 dividing your program up among multiple C++ and .h files, and using a Makefile. 
 I strongly encourage you to read over it briefly before you proceed with the lab: 
 [Separate Compilation and Makefiles](https://ucsb-cs16.github.io/topics/makefile/)
-
 
 
 ## Step 5: Writing isOdd(), isEven() and isPrime()
