@@ -23,15 +23,15 @@ So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; 
 
 ## Course instructor: Phill Conrad
 
-* Email: Please use Campuswire rather than email for course related communication.  You can send private messages on Campuswire to either the entire course staff or directly to me. If you must email me using my email address (phtcon@ucsb.edu), please put `CS16` in the subject line, and know that there may be a delay in the response. 
- 
+* Email: Please use Campuswire rather than email for course related communication.  You can send private messages on Campuswire to either the entire course staff or directly to me. If you must email me using my email address (phtcon@ucsb.edu), please put `CS16` in the subject line, and know that there may be a delay in the response.
+
 
 ## Course TAs
 * {{site.ta_names}}
 * Contact via Campuswire.
 
 ## Learning Assistants (LAs)
-In addition to the instructor and TA, there will be some undergraduate Learning Assistants (LAs) in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours). 
+In addition to the instructor and TA, there will be some undergraduate Learning Assistants (LAs) in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours).
 
 ## Learning Assistants in training (LAs in training)
 
@@ -63,12 +63,22 @@ Office Hours: F 9AM - 11AM (online)
 
 ## Avishek De, TA
 
-Bio coming soon.
+Avishek De is a first year MS student in the department of Computer Science. He completed his undergraduate degree in Electrical Engineering with a minor in Computer Science from Indian Institute of Technology (IIT), Roorkee. He also has over four years of work experience as an Associate Software Developer at Goldman Sachs. His current area of interest is cloud distribution systems and associated frameworks. Avishek is well-versed with Object Oriented Programming languages such as Java and C++ and looks forward to working with CS16 students to break down difficult concepts and get everyone to enjoy programming in C++. You can also reach out to him for questions and suggestions related to internships. In his free time, Avishek loves to travel and play DOTA2.
+<pre>
+Office Hours: T 6PM - 8PM (in-person)
+              R 5PM - 7PM (in-person)
+</pre>
 
 
 ## Kevin Heffernan, TA
 
-Bio coming soon.
+<img src="staff/CS16-F21-Kev.png" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+
+My name is Kevin, but call me Kev. I am a Master of Technology Management student who recently studied my undergraduate in CS at UCSB. I also recently worked at Appfolio as a Software Quality Assurance Engineer before returning to UCSB. 
+
+I love to chat. Please come to me with any questions about homework, labs, or career planning. I would be happy to help you along.
+
+My hobbies include dancing, singing, beach volleyball, and spending with with the people I love. 
 
 
 ## Lucas Relic, TA
@@ -91,22 +101,25 @@ Hey everyone! My name is Ashley (she/her/hers) and I'm currently a 5th year in t
 
 ## Shu Yang, TA
 
-Bio coming soon.
+Shu (she/her/hers) is a M.S student in the CS Department at UC Santa Barbara. As an Research Intern student, Shu did machine learning and system research in UCSB Lab with Yufei Ding. This is the first quarter as a TA in CS Department, but she had prior experience as a grader for courses like CS24, CS64, CS154 and CS111. Shu has also intered at Facebook as a Production Engineering Intern in Summer2021. In her free time, she enjoys cooking and watching anime.
+<pre>
+Office Hours: Thursday 9AM - 1PM (in-person). Welcome!
+</pre>
 
 
 ## Arthur Gatin, LA
 
-<img src="staff/CS16-F21-Arthur-G.png" alt="Arthur, ULA" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
-Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+ Hello dear students! My name is Arthur, and I will be your ULA this quarter. CS16 was the first course I took at UCSB three years ago, so I'm nostalgic and also exteremely sympathetic towards you who get to experience this course and learn the basics of C++ for the first time. I will do my best to make sure you have a good experience in this class. Feel free to come for any help or chat about anything that interests you.
+
 
 
 ## Connor McIntosh, LA
 
-Connor McIntosh is an Undergraduate Learning Assistant for CS16 
-and a 4th year CS major from Ventura, CA. He is a member of the 
-Data Science club at UCSB who has worked on and started sports analytics 
-machine learning projects. Connor is also a member of the Gaucho Pep Band, 
+Connor McIntosh is an Undergraduate Learning Assistant for CS16
+and a 4th year CS major from Ventura, CA. He is a member of the
+Data Science club at UCSB who has worked on and started sports analytics
+machine learning projects. Connor is also a member of the Gaucho Pep Band,
 so you may see him playing the drums at basketball and soccer games this year.
 
 
@@ -120,7 +133,7 @@ I'll hold my office hours outside chem 1179, together with professor Conrad unde
 
 ## Cameron King, LA in training
 
-Bio coming soon.
+Cameron is a 4th year CS major and ULA in training. He has taken all the lower division courses at UCSB, including this class. Cameron interned at Amazon last summer in the Search Science and AI department. When he isn't working, Cameron enjoys kpop, the gym, Genshin Impact, and ricing his Linux partition.
 
 
 ## Sydney Lim, LA in training
