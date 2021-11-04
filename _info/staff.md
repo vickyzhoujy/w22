@@ -72,7 +72,7 @@ Office Hours: T 6PM - 8PM (in-person)
 
 ## Kevin Heffernan, TA
 
-<img src="staff/CS16-F21-Kev.png" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+<img src="https://ucsb-cs16.github.io/f21/info/staff/CS16-F21-Kev.JPG" alt="Kev" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
 
 My name is Kevin, but call me Kev. I am a Master of Technology Management student who recently studied my undergraduate in CS at UCSB. I also recently worked at Appfolio as a Software Quality Assurance Engineer before returning to UCSB. 
 
