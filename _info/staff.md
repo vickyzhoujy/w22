@@ -131,6 +131,11 @@ My office hour: TR 3:20pm - 4:20pm
 I'll hold my office hours outside chem 1179, together with professor Conrad under the tree. We can always move to Phelps Hall 3525 if needed.
 
 
+## Bryan Zamora, LA
+
+Hi everyone! I am a 3rd year CS major. I was previously a CS for CS 32 last Spring. I am part of the CS Early Research Program (ERSP) in the Four Eyes Lab. My research focuses on 3D Image Reconstruction and Computer Vision. During the summer I taught High School students how to code web and mobile apps. I am looking forward to have an amazing quarter with you all! Come by to office hours to ask me any sort of questions you have, or feel free to reach out on Campuswire!!
+
+
 ## Cameron King, LA in training
 
 Cameron is a 4th year CS major and ULA in training. He has taken all the lower division courses at UCSB, including this class. Cameron interned at Amazon last summer in the Search Science and AI department. When he isn't working, Cameron enjoys kpop, the gym, Genshin Impact, and ricing his Linux partition.
