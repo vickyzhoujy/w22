@@ -51,7 +51,7 @@ software engineering practices.
 
 ## Nawel Alioua, TA
 
-Bio coming soon.
+Hi everyone! My name is Nawel, and I am a first year Ph.D. student in the CS department at UCSB. I graduated with an Engineering/Master's degree from the National School of Computer Science in my hometown of Algiers - Algeria. I then moved to Japan to pursue my second Master's at the University of Tokyo, before joining Hitachi, Ltd. as a researcher.  During the 5 years I spent in the corporate world, I had the chance to work on very different projects, ranging from networking protocol development, to renewable energy systems design. That's our privilege as computer scientists: wherever there is some sort of computation/data involved (which in this day and age is everywhere!), we can have a role to play, and a contribution to make. For my Ph.D. I am planning to focus on networking technologies, as I believe efficient and reliable communication is the lifeline of modern societies. Feel free to reach out if you'd like to know more about any of the above themes, and of course, about C++ development. I'm excited to be part of the CS 16 staff, and I look forward to working with you all!
 
 ## Satyam Awasthi, TA
 
