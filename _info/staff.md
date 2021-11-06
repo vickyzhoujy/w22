@@ -146,5 +146,11 @@ Cameron is a 4th year CS major and ULA in training. He has taken all the lower d
 
 Hello everyone! My name is Sydney, and I'm a fourth-year CE major in the 5-year BS/MS program in CS. CMPSC 16 was the first CS course I took at UCSB. I remember the struggles that I faced as a first-year learning C++ for the first time, so I hope to help you guys get a strong foundation in this class in preparation for later courses. This is my first quarter being a ULA, so I'll be observing for the first half of the quarter. I look forward to helping out in sections and holding office hours in the second half!
 
+
+## Arthur Phan, LA in training.
+
+Hey all! I'm the second Arthur for this course! My pronouns are he/him and I am a 5th year finishing my CS degree this Fall quarter! I'm looking forward to helping out as you'll be learning C++, CSIL, and Github for the first time, as well as all the theoretical concepts that will be fundamental to your CS courses here at UCSB! 
 Feel free to talk to me about classes in the CMPSC/ECE department, GE recommendations, or general college advice. I also play regularly for UCSB Badminton, so if you're interested, you can probably find me in the Pavilion Gym on the weekends!
+
+
 
