@@ -115,7 +115,7 @@ The rationale behind this approach is that each function in `shapeFuncs.cpp` can
 
 Here is a list of your tasks for this lab.  You will see that we are working on one function at a time, seeing the tests fail, then editing code to see the tests pass.
 
-### Get `distanceBetween` working
+### (1) Get `distanceBetween` working
 
 * Run `make` and see the given code being compiled.
 * Run `./distanceBetweenTest` and see it fail.
@@ -123,12 +123,12 @@ Here is a list of your tasks for this lab.  You will see that we are working on 
 * Run `./distanceBetweenTest` and see it pass.
 * Commit and push your code to github with commands:
   - `git status` to see which files have been changed and need to be added.
-  - `git add shapeFuncs.cpp` (which is likely the only file you have changed)
+  -  Repeat `git add filename` for each `filename`  that you have changed
+  -  For example: `git add shapeFuncs.cpp` 
   - `git commit -m "distanceBetween function is now passing tests"`  (the exact comment is up to you; this is a suggestion)
   - `git push origin main`
-
-
-### Understand the `pointsApproxEqual` function
+* You should now be able to make a submission to Gradescope and see that you are getting at least partial credit for the lab (i.e. some of your tests are working.)  
+### (2) Understand the `pointsApproxEqual` function
 
 * Run ./pointsApproxEqualTest and see it pass.
 * Look at the code in pointsApproxEqualTest.cpp and shapeFuncs.cpp and understand how it works.
@@ -139,49 +139,79 @@ Here is a list of your tasks for this lab.  You will see that we are working on 
 
 There is no code to commit for this step; this is just a step for you to read some code and understand it.
 
-### Get `distanceBetween` working
+### (3) Get `initPoint` working
 
 
 * Run `./initPointTest` and see it fail.
 * Looking at the test code in `initPointTest.cpp`, figure out what the `initPoint` function is supposed to do.
 * Edit the `initPoint` function in `shapeFuncs.cpp` to replace the stub with correct code.
 * Run `./initPointTest` and see it pass.
-* Now, as preparation for homework and exam questions, reason about why your code works. Do this by drawing a pointer diagram that shows the state of memory right before the `initPoint` function returns when it is called for the very first time by the test code. Your pointer diagram should show the value of member variables `x` and `y` of the struct object `p1` in `initPointTest.cpp` 
+* Commit and push your code to github with commands:
+  - `git status` to see which files have been changed and need to be added.
+  - For each file that has changed, use: `git add filename` (replacing `filename` as needed)
+  - `git commit -m "distanceBetween function is now passing tests"`  (the exact comment is up to you; this is a suggestion)
+  - `git push origin main`
+* Make a submission on Gradescope from your GitHub repo and see if your grade is going up.
+
+### (4) Understand your code by drawing a picture
+
+Now, as preparation for homework and exam questions, reason about why your code works. 
+
+* Do this by drawing a pointer diagram that shows the state of memory right before the `initPoint` function returns when it is called for the very first time by the test code. 
+* Your pointer diagram should show the value of member variables `x` and `y` of the struct object `p1` in `initPointTest.cpp` 
   as well as the relationship between `p1` and the formal parameter `p` of the function `initPoint`. 
 * You should also show the formal parameters `xVal` and `yVal` in memory and indicate whether or not they are colocated in memory with any other variables (such as `x` and `y`). 
-* Make the drawing on a piece of paper or as ascii art in a text file and upload it to your gitrepo with the filename: pointer-diagram-initPoint. The diagram will be graded manually by us.
+* This drawing is only for your own purposes; we are not grading it.  However, you are encouraged to make the drawing on a piece of paper and show it to one of the staff during lab section or office hours to get feedback on whether your understanding is correct.
 
-* Run ./boxesApproxEqualTest and see it fail.
-* Edit the boxesApproxEqual function in shapeFuncs.cpp to replace the stub with correct code.  As you do, consider adding an approxEqual function that takes two double values into utility.h and utility.cpp, as this will make your coding job easier, and keep you code "DRYer".  Also, consider reusing the pointsApproxEqual function in your boxesApproxEqual solution.  Remember that the <code>&amp;&amp;</code> operator is the symbol for "logical and" in C++.
-* Run ./boxesApproxEqualTest and see it pass.
+
+### (5) Get `boxesApproxEqual` working
+
+
+* Run `./boxesApproxEqualTest` and see it fail.
+* Edit the `boxesApproxEqual` function in `shapeFuncs.cpp` to replace the stub with correct code.  As you do, consider adding an approxEqual function that takes two double values into `utility.h` and `utility.cpp`, as this will make your coding job easier, and keep you code "DRYer".  
+* Also, consider reusing the `pointsApproxEqual` function in your `boxesApproxEqual` solution.  Remember that the <code>&amp;&amp;</code> operator is the symbol for "logical and" in C++.
+* Run `./boxesApproxEqualTest` and see it pass.
 * Reason about why your code worked, draw a diagram to show the relationship between the formal and actual parameters. You don't need to submit the diagram but you may be asked to draw such a diagram on an exam!
-* Commit and push your code to github.
+* Commit and push your changes to GitHub (by now, you should know the appropriate commands).
+* Make a submission on Gradescope from your GitHub repo and see if your grade is going up.
 
-* Run ./initBoxTest and see it fail
-* Edit the initBox function in shapeFuncs.cpp to replace with correct code. As you do, remember that you use -> to access members of a struct through a pointer, but simply . to access members of a struct directly.  You may need both in your answer.
-* Run ./initBoxTest and see it pass
-* Commit and push your code to github.
+### (5) Get `initBox` working
+
+
+* Run `./initBoxTest` and see it fail
+* Edit the `initBox` function in `shapeFuncs.cpp` to replace with correct code. As you do, remember that you use `->` to access members of a struct through a pointer, but simply `.` to access members of a struct directly.  You may need both in your answer.
+* Run `./initBoxTest` and see it pass
+* Commit and push your code to GitHub, and try submitting to Gradescope.
+
+
+### (6) Get `areaOfBox` working
 
 
 * Run ./areaOfBoxTest and see it fail
 * Edit the areaOfBox function in shapeFuncs.cpp to replace with correct code.
 * Run ./areaOfBoxTest and see it pass
-* Commit and push your code to github.
+* Commit and push your code to GitHub, and try submitting to Gradescope.
 
+### (7) Get `boxToString` tests set up
 
-* Run ./pointToStringTest and see it pass
-* Copy pointToStringTest.cpp to boxToStringTest.cpp and make tests for the boxToString function.  Look in shapeFuncs.cpp at the boxToString function stub for an example of the format you need for boxToString's return values. Make tests for different precisions, just like pointToString has.
-* Add code to the Makefile so that boxToString runs. Just follow the model--adding code for boxToStringTest everywhere you see code for pointToStringTest
-* Run make
-* Commit and push your code to github.
+* Run `./pointToStringTest` and see it pass; we'll use that as a basis to develop `boxToString`.
+* Copy `pointToStringTest.cpp` to `boxToStringTest.cpp` (the Unix command is `cp`) and write code for tests for the `boxToString` function.  
+  - Look in `shapeFuncs.cpp` at the `boxToString` function stub for an example of the format you need for boxToString's return values.
+  -  Make tests for different precisions, just like `pointToString` has.
+* Add code to the `Makefile` so that `boxToString` runs. Just follow the model&mdash;adding code in the `Makefile` for `boxToStringTest` everywhere you see code for `pointToStringTest`
+* Run `make`
+* Commit and push your code to github including all of the files you have changed.
+* Try another Gradescope submission
 
+### (8) Get `boxToString` working
 
-* Run ./boxToStringTest and see the tests fail
-* Fix the definition of boxToString in shapeFuncs.cpp
-* See the test ./boxToStringTest pass
-* Commit and push your code to github.
+* Run `./boxToStringTest` and see the tests fail
+* Fix the definition of `boxToString` in `shapeFuncs.cpp`
+* See the test `./boxToStringTest` pass
+* Commit and push your code to github including all of the files you have changed.
+* Try another Gradescope submission
 
-* YOU ARE READY TO CHECK YOUR WORK.
+Even if you now got 100 on Gradescope, please now check your work before submitting.
 
 ## Step 4: Checking your work before submitting
 
@@ -263,24 +293,16 @@ PASSED: boxToString(b1,6)
 -bash-4.2$
 ```
 
-At that point, you are ready to try submitting on Gradescope.
+At that point, if you haven't already, submit on Gradescope
 
-## Step 5: Turn in your code on Gradescope
+## Step 5: Checking your code style
 
-Submit all the .cpp and .h files to Lab05 assignment on Gradescope via your github repo. Then visit Gradescope and check that you have a correct score.
-
-* You must check that you have followed these style guidelines:
+Please check that you have followed these style guidelines:
 
 1. Indentation is neat, consistent and follows good practice (see below)
 2. Variable name choice: variables should have sensible names.
 	More on indentation: Your code should be indented neatly.  Code that is inside braces should be indented, and code that is at the same "level" of nesting inside braces should be indented in a consistent way.    Follow the examples from lecture, the sample code, and from the textbook.   
 
-* Your submission should be on-time. If you miss the deadline, you are subject to getting a zero.
+Your submission should be on-time. If you miss the deadline, you are subject to getting a zero.   The instructor may or may not extend the deadline for late submissions at their discretion.
 
-Commit and push the latest version of your code on github
 
-If you are logged in remotely, you can log out using the exit command:
-
-```
-$ exit
-```
