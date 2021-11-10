@@ -1,19 +1,18 @@
 ---
 layout: lab
 num: lab06
-ready: false
+ready: true
 desc: "Fun with shapes: Pointers and Structs"
 assigned: 2021-11-10 12:00
 due: 2021-11-19 23:59:00
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
+# What to work on in lab on 11/10/21
 
+* If you aren't finished with lab05, work on that first.
+* In parallel with that, finish up any remaining work in zyBooks chapter 9; that was due yesterday, but is still accepted through next Tuesday
+* Then, work on this lab, lab06.  You may find that Chapters 8 and 10 in the zyBook helpful.
+* Once you completed lab06, if there remains any unfinished work in the zyBook from chapters 9 through 12, work on that.
 
 # Goals of this lab
 
