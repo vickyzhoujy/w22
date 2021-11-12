@@ -1,18 +1,11 @@
 ---
 layout: lab
 num: lab07
-ready: false
+ready: true
 desc: "Array lists and dynamic arrays"
-assigned: 2021-11-12 08:00
+assigned: 2021-11-12 14:00
 due: 2021-11-24 16:59
 ---
-
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
 
 
 # What to work on in lab on 11/17/21
