@@ -15,51 +15,60 @@ due: 2021-11-24 16:59
 # NOT READY YET
 
 
+# What to work on in lab on 11/17/21
+
+* If you aren't finished with lab06, work on that first.
+* In parallel with that, finish up any remaining work in zyBooks chapter 10; that was due last Friday, but is still accepted through next Friday
+* Then, work on this lab, lab07.  You may find that Chapters 8 and 10 in the zyBook helpful.
+* Once you completed lab07, if there remains any unfinished work in the zyBook from chapters 11 and 12, work on that.  That will help you get ready for the next lab.
+
 # Goals of this lab
 
 The goal of this lab is get more practice with iterating through arrays and dynamically allocating memory. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
 
 # Step by Step Instructions
 
-## Step 1: Getting Started
+## Step 1: Getting Ready
 
-1. Go to github and create a git repo for this lab following the naming convention specified in previous labs. 
+1. Go to github and find a repo for lab06 assigned to your GitHub id.
 
 2. Log on to your CSIL account.
 
-3. Open a terminal window and log into the correct machine.
+3. Change into your `~/cs16` directory
 
-4. Change into your CS 16 directory
+4. Clone your empty lab06 repo into your `~/cs16` directory.
 
-Note: Remember to push your work to github at the end of EVERY work session. 
+5. In your empty repo, do `git checkout -b main` to establish that you are on the `main` branch as your default branch.
 
-## Step 2: Obtaining the starter code
 
-* Navigate to your cs16 directory and clone the git repository you created
-```
-git clone git@github.com:ucsb-cmptgcs1a-f21/lab06_jgaucho.git
-```
-* cd into this new directory
-```
-cd lab06_jgaucho
-```
+## Step 2: Obtain the starter code
 
-* Copy the starter code by typing the following command:
+The starter code is in this repo:
 
-```
-cp /cs/faculty/richert/public_html/cs16/lab06/* ./
-```
+* <https://github.com/ucsb-cs16-f21/STARTER-lab07>
 
-Typing the list (ls) command should show you the following files in your current directory
+The URL for cloning this repo is this: `git@github.com:ucsb-cs16-f21/STARTER-lab07.git`
+
+Previous labs contain instruction for the process of:
+* Adding a `starter` remote for this repo
+* Pulling the code from that `starter` remote into your own repo.
+
+Please do those steps now, and then do a `git push origin main` to populate your own repo with the starter code.
+
+If you need help with these steps:
+* First consult previous labs for more detailed instructions.   
+* Then, if you are still having trouble, ask the staff for help during discussion section or office hours.
+
+Once you've populated your repo, typing the `ls` command should show you the following files in your current directory
 
 ```
 $ ls
-arrayFuncs.cpp  Makefile            README.md
-arrayFuncs.h    moreArrayFuncs.cpp  tddFuncs.cpp
-mafTest.cpp     moreArrayFuncs.h    tddFuncs.h
-$
-
+Makefile		arrayFuncs.h		moreArrayFuncs.h
+README.md		mafTest.cpp		tddFuncs.cpp
+arrayFuncs.cpp		moreArrayFuncs.cpp	tddFuncs.h
+$ 
 ```
+
 
 ## Step 3: Reviewing the files and what your tasks are
 
@@ -244,7 +253,7 @@ At that point, you are ready to try submitting on gradescope.
 
 ## Step 5: Turn in your code on Gradescope
 
-Submit all the .cpp and .h files to Lab06 assignment on Gradescope via your github repo. Then visit Gradescope and check that you have a correct score.
+Submit all the `.cpp` and `.h` files to this assignment on Gradescope via your github repo. Then visit Gradescope and check that you have a correct score.
 
 * You must check that you have followed these style guidelines:
 
@@ -262,10 +271,3 @@ To be very clear, code like this will pass on gradescope, BUT REPRESENTS A FORM 
 
 I would hope this would be obvious, but I have to say it so that there is no ambiguity: hard coding your output is a form of cheating, i.e. a form of "academic dishonesty". Submitting a program of this kind would be subject not only to a reduced grade, but to possible disciplinary penalties. If there is <em>any</em> doubt about this fact, please ask your TA and/or your instructor for clarification.
 
-## Logging out
-
-If you are logged in remotely, you can log out using the exit command:
-
-```
-$ exit
-```
