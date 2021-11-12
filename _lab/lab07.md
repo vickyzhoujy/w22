@@ -30,7 +30,7 @@ The goal of this lab is get more practice with iterating through arrays and dyna
 
 ## Step 1: Getting Ready
 
-1. Go to github and find a repo for lab06 assigned to your GitHub id.
+1. Go to github and find a repo for lab07 assigned to your GitHub id.
 
 2. Log on to your CSIL account.
 
