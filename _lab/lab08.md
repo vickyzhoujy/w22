@@ -26,17 +26,11 @@ Thanks!
 
 By the time you have completed this lab, you should be able to
 
-* Define a simple C++ class
-* Implement a simple C++ class definition
+* Add a new method to declaration of a simple C++ class
+* Add implementation of a new method to a simple C++ class definition
 * Test a simple C++ class implementation
+* Continue practicing with pre-written Makefiles
 
-We assume you already know everything that was covered in Lab00, and we will not repeat instructions given there for basic operations. This assignment must be completed individually.
-
-# Step by Step Instructions
-
-# Goals of this lab
-
-The goal of this lab is get more practice with iterating through arrays and dynamically allocating memory. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
 
 # Step by Step Instructions
 
@@ -106,11 +100,6 @@ empty floor area: 53.22
 Your revision of this program should operate exactly the same way. You will make the revision using the provided skeleton code in rugfit2.cpp
 
 ## Step 4: Know what it means to design an OO program
-
-
-TODO:  REWRITE THIS FOR THREE SEPARATE FILES... 
-
-ADD DISCUSSION OF THE MAKEFILE
 
 An experienced OO programmer would frown at the sight of variable names like `floorWidth` and `floorLength`, and would absolutely cringe at seeing names like `rugWidth` and `rugLength`. Such a programmer's object-oriented training would scream out the need for objects named `floor` and `rug` each of type `Rectangle` each with its own `width` and `length` attributes. 
 
