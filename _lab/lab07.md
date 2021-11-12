@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab06
+num: lab07
 ready: false
 desc: "Array lists and dynamic arrays"
 assigned: 2021-11-12 08:00
