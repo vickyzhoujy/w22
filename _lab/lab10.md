@@ -60,7 +60,9 @@ Once you've populated your repo, typing the `ls` command should show you the fol
 
 ```
 $ ls
-FILL THESE IN
+linkedList.h            recLinkedListFuncs.cpp  strFuncs.h
+linkedListFuncs.cpp     recLinkedListFuncs.h    tddFuncs.cpp
+linkedListFuncs.h       strFuncs.cpp            tddFuncs.h
 $ 
 ```
 
