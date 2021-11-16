@@ -60,8 +60,10 @@ Once you've populated your repo, typing the `ls` command should show you the fol
 
 ```
 $ ls
-FILL THESE IN
-$ 
+Makefile              linkedListFuncs.h	       tddFuncs.cpp
+README.md             llTests.cpp		           tddFuncs.h
+linkedList.h          moreLinkedListFuncs.cpp
+linkedListFuncs.cpp	  moreLinkedListFuncs.h
 ```
 
 
