@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Basic Classes in C++"
 assigned: 2021-11-16 14:00
 due: 2021-12-01 23:59
