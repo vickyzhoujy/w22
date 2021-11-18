@@ -28,7 +28,7 @@ By the time you have completed this lab, you should be able to
 
 3. Change into your `~/cs16` directory
 
-4. Clone your empty lab06 repo into your `~/cs16` directory.
+4. Clone your empty lab08 repo into your `~/cs16` directory.
 
 5. In your empty repo, do `git checkout -b main` to establish that you are on the `main` branch as your default branch.
 
