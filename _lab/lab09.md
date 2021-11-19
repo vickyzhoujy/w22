@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab09
-ready: false
+ready: true
 desc: "Linked Lists in C++ with structs"
 assigned: 2021-11-16 08:00
 due: 2021-12-02 23:59
