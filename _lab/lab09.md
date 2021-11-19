@@ -7,21 +7,6 @@ assigned: 2021-11-16 08:00
 due: 2021-12-02 23:59
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-<div style="font-size:300%">
-I really mean it.<br />
-Please wait to start this lab</br>
-until you are told it is ready.</br>
-Thanks!
-</div>
-
-
 # Goals for this lab
 
 
