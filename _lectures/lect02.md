@@ -1,5 +1,5 @@
 ---
-desc: Second Lecture
+desc: "C++ basic data types, binary, struct keyword"
 num: lect02
 lecture_date: 2021-09-28
 ready: true
