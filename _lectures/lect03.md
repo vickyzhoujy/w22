@@ -1,10 +1,9 @@
 ---
-desc: Third Lecture
+desc: "A bit more on structs and constructors"
 num: lect03
 lecture_date: 2021-09-30
 ready: true
 ---
-
 
 Slides: <https://docs.google.com/presentation/d/1Y6HoYn0hvGll0_VqW4Qyyn47bhXUpUd-uLgvdGBklms/edit?usp=sharing>
 
