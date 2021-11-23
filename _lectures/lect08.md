@@ -1,8 +1,8 @@
 ---
-desc: "Eighth Lecture: argc/argv, C-strings, pointers, functions, reading from files"
+desc: "argc/argv, C-strings, pointers, functions, reading from files"
 num: lect08
 lecture_date: 2021-10-19
-ready: false
+ready: true
 ---
 
 * Code: <https://github.com/ucsb-cs16-f21/lectures/tree/main/10.19>
