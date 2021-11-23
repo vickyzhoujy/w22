@@ -4,3 +4,6 @@ num: lect14
 lecture_date: 2021-11-09
 ready: false
 ---
+
+* Video <https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=79cd4753-20cc-4fd6-a4d4-ade2013e793b>
+* Slides <https://docs.google.com/presentation/d/1-D-LByk2uNYYlDzLMzYJN5qaboc3L_kAtbQzkEsRJZc/edit?usp=sharing>
