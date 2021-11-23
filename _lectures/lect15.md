@@ -2,7 +2,7 @@
 desc: "git push/pull; Recursion"
 num: lect15
 lecture_date: 2021-11-16
-ready: false
+ready: true
 ---
 
 * Video <https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0a228f5-94e8-4916-9a57-ade30173a8ed>
