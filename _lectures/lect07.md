@@ -1,5 +1,5 @@
 ---
-desc: "Seventh Lecture: more on functions"
+desc: "More on functions"
 num: lect07
 lecture_date: 2021-10-14
 ready: true
