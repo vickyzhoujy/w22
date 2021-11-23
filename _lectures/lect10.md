@@ -2,7 +2,7 @@
 desc: "Midterm Practice Questions"
 num: lect10
 lecture_date: 2021-10-26
-ready: false
+ready: true
 ---
 
 * Slides: <https://docs.google.com/presentation/d/1cVVbIMfGDzuA95kBr9Ly_9ioBmBfg3swNvs2YpVd0HM/edit?usp=sharing>
