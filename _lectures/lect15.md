@@ -1,5 +1,5 @@
 ---
-desc: "git push/pull; Recursion"
+desc: "git push/pull; classes in C++"
 num: lect15
 lecture_date: 2021-11-16
 ready: true
