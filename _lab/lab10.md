@@ -74,13 +74,13 @@ If you use an iterative solution (i.e. one that uses loops rather than recursion
 
  In the file `strFuncs.cpp`, write a function called isAnagram that takes two strings as arguments and returns a boolean true if the two strings are anagrams, otherwise it returns false. The function should not be case sensitive and should disregard any punctuation or spaces. Two strings are anagrams if the letters can be rearranged to form each other. For example, “Eleven plus two” is an anagram of “Twelve plus one”. Each string contains one “v”, three “e’s”, two “l’s”, etc. Similarly "Rats and Mice" and "in cat's dream" are anagrams of each other. You may use any of the C-string library or string class functions to complete this code. You may **not** use built-in C++ functions that we have NOT discussed in lecture. You should follow a TDD style of coding where you write tests before writing your code. 
  
- ## Step-by-step example
+ ## Possible approaches
 
-  Let is see if the strings `I Am Lord Voldemort` and `Tom,marvolo,riddle` are anagrams. First, since the function is not case-sensitive and doesn't care about puctiation, we should do some work on the strings to bring them to the same format: use Lowercase characters and ignore puncutation. The strings become `iamlordvoldemort` and `tommarvoloriddle`. Then, we need to check if the cleaned strings contain the same characters - there are multiple paths we could take here. 
+  Let's see if the strings `I Am Lord Voldemort` and `Tom,marvolo,riddle` are anagrams. First, since the function is not case-sensitive and doesn't care about puctiation, we should do some work on the strings to bring them to the same format: use Lowercase characters and ignore puncutation. The strings become `iamlordvoldemort` and `tommarvoloriddle`. Then, we need to check if the cleaned strings contain the same characters - there are multiple paths we could take here. 
   
   We could sort the strings based on characters' ASCII values, and we expect the sorted strings to be exactly the same for anagrams. 
   
-  We could also look for string 1 characters in string 2: for every character in string 1, try to fidn that character in string 2. This will be a little tricky because of repeating characters: if you are trying to find the first 'o' from `iamlOrdvoldemort`, you should find the 'o' in Tom: `tOmmarvoloriddle`. However, looking for the 'o' in 'lord': `iamlOrdvoldemort`, you should look past the 'o' in 'tom', since you've already used that character. The corresponding, unused 'o' would be the next one: `tommarvOloriddle`. It is doable, but you would need to somehow keep track of the letters you already used from the second string. 
+  We could also look for string 1 characters in string 2: for every character in string 1, try to find that character in string 2. This will be a little tricky because of repeating characters: if you are trying to find the first 'o' from `iamlOrdvoldemort`, you should find the 'o' in Tom: `tOmmarvoloriddle`. However, looking for the 'o' in 'lord': `iamlOrdvoldemort`, you should look past the 'o' in 'tom', since you've already used that character. The "unused" 'o' would be the next one: `tommarvOloriddle`. It is doable, but you would need to somehow keep track of the characters you already used from the second string. 
   
   The third approach would be to count each letter from the alphabet. For instance, the first string has 1 letter 'a', and the second string has 1 letter 'a'. There are no 'b's or 'c's in either string. There are 2 letter 'd's in both strings. If you find at least one letter count that doesn't match, the strings are not anagram. The count of letters would match for each letter only for anagrams.
 
@@ -119,7 +119,7 @@ You may choose a recursive implementation in this case, although it is not requi
 
 There is a way to do this without a helper function using the `substr` (substring) function appropriately in your recursive calls, but it's fine to come up with any solution.
 
-## Hint
+## Possible approach
 
 Dealing with a "raw" string with punctuation and a combination of upper/lowercase characters is hard. We recommend that you write a function to "clean" the string, and then call the recursive helper function to see if it is a palindrome.
 
