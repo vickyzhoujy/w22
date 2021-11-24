@@ -79,7 +79,10 @@ If you use an iterative solution (i.e. one that uses loops rather than recursion
 
 Write your own test code in a separate file and write a `Makefile` to compile all of your code.  Consult the Makefiles from previous labs, and the lecture notes on Makefiles to guide you in constructing your Makefile.    You may look at test code in previous labs to get an idea of how to write good test code.
 
-Remember that each "recipe" in the Makefile must be on a line that starts with a "tab" character, not a sequence of spaces.
+You may find it helpful to consult the [slides from 11/09](https://docs.google.com/presentation/d/1-D-LByk2uNYYlDzLMzYJN5qaboc3L_kAtbQzkEsRJZc/edit?usp=sharing), particularly slide 11, that talks about the structure of a `Makefile`.   A few things to remember:
+* Makefiles consist of targets, dependencies and recipes (see the slide)
+* Remember that each target starts in the leftmost column, and is followed by a colon, and then a (possibly empty) list of dependencies.
+* Remember that each "recipe" in the Makefile follows a target line, and must be on a line that starts with a "tab" character, not a sequence of spaces.
 
 ## Program to check if an input string is a palindrome
 
