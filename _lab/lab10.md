@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab10
-ready: false
+ready: true
 desc: "Recursion"
 assigned: 2021-11-27 16:00
 due: 2021-12-03 23:59
