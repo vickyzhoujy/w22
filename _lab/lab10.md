@@ -144,7 +144,7 @@ remove `i` to get `tommarvolorddle`.   The recursive call is on `amlordvoldermor
 
 Removing the character from the second string can be done with a combination of two functions:
 
-* C++ `find`  function ([documentation here](https://www.cplusplus.com/reference/string/string/find/)
+* C++ `find`  function ([documentation here](https://www.cplusplus.com/reference/string/string/find/))
 * C++ `substr` function ([documentation here](https://www.cplusplus.com/reference/string/string/substr/)) to pull apart the piece that comes before the character, and the part that comes after, and then `+` to concatenate them back together.
 
 ### Write your own test code and Makefile
