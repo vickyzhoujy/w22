@@ -7,7 +7,9 @@ assigned: 2021-11-27 16:00
 due: 2021-12-03 23:59
 ---
 
-<span class="badge rounded-pill bg-primary">New</span> At the end of this lab description, there are some new hints added on 12/02/2021.  These were posted on Campuswire on Tuesday 11/30/2021 based on Prof. Conrad helping several students during office hours, but I'm including them in the main lab writeup as well so they get more visibility.
+<h3><span class="badge rounded-pill bg-primary">New</span> Hints!</h3>
+
+At the end of this lab description, there are some new hints added on 12/02/2021.  These were posted on Campuswire on Tuesday 11/30/2021 based on Prof. Conrad helping several students during office hours, but I'm including them in the main lab writeup as well so they get more visibility.
 
 Scroll down to the bottom to the section "Hints".
 
