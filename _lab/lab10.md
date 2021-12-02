@@ -7,6 +7,9 @@ assigned: 2021-11-27 16:00
 due: 2021-12-03 23:59
 ---
 
+<span class="badge rounded-pill bg-primary">New</span> At the end of this lab description, there are some new hints added on 12/02/2021.  These were posted on Campuswire on Tuesday 11/30/2021 based on Prof. Conrad helping several students during office hours, but I'm including them in the main lab writeup as well so they get more visibility.
+
+Scroll down to the bottom to the section "Hints".
 
 
 ## Goals for this lab
@@ -306,3 +309,34 @@ Then, submit all the code for this assignment on Gradescope via your github repo
    More on indentation: Your code should be indented neatly. Code that is inside braces should be indented, and code that is at the same "level" of nesting inside braces should be indented in a consistent way. Follow the examples from lecture, the sample code, and from the textbook.
 3. Your solution to `isAnagram` and `isPalindrome` may use either an iterative or recursive approach, as you see fit.
 4. However, Your solutions to the problems (e.g. `recursiveSum` and `recursiveLargestValue`) should use recursion. You will not receive credit otherwise (even if Gradescope marks your code as correct).  
+
+<h2>
+ <span class="badge rounded-pill bg-primary">
+ New
+ </span>
+ Hints
+</h2>
+
+Here are a few hints that were posted to Campuswire on 11/30/2021.  I'm repeating them here so they get more visibility.
+
+## My code works on CSIL but not on Gradescope
+
+Under some conditions, your code may work perfectly on CSIL, but then you get this on Gradescope:
+
+![image](https://user-images.githubusercontent.com/1119017/144485770-edcc567d-47d4-46a7-8be0-a38edb4526d5.png)
+
+What this output literally means is that the Autograder was expecting to see a bunch of passed tests, but it didn't see those.  That's what the - signs mean in front of the lines of "missing output".
+
+While there are a variety of reasons this *can* happen, the most common cause that I've seen in practice is one that is due to a limitation of the way that the autograder for this particular lab was written:
+
+* The only two files from the student submission that are copied into the autograder are these two:
+  - `recLinkedListFuncs.cpp`
+  - `strFuncs.cpp`
+
+Therefore, for Gradescope purposes, any helper functions that you write must be placed inside those two files.
+
+If you put them into a separate file of helper functions, you can try, instead, moving those into `strFuncs.cpp` or `recLinkedListFuncs.cpp` as needed.
+
+You may also need to define a function prototype (also known as a function definition) for your helper functions if they are used within `strFuncs.cpp` or `recLinkedListFuncs.cpp`  before they are defined.
+
+
