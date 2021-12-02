@@ -340,3 +340,91 @@ If you put them into a separate file of helper functions, you can try, instead, 
 You may also need to define a function prototype (also known as a function definition) for your helper functions if they are used within `strFuncs.cpp` or `recLinkedListFuncs.cpp`  before they are defined.
 
 
+Some students had problems because they defined their helper functions in separate `.h` and or `.cpp` files.  The solutions is to move the helper functions inside the two files listed above.  You may also need to put the function prototypes for those above the first place where they are used.
+
+As an example: In some cases, students are getting errors such as these when running on Gradescope:
+
+```
+strFuncs.cpp:20:10: error: ‘recursiveIsAnagram’ was not declared in this scope
+   return recursiveIsAnagram(s1, s2);
+          ^~~~~~~~~~~~~~~~~~
+```
+
+The solution is to make sure that you have a function prototype such as: 
+
+```
+bool recursiveIsAnagram(string s1, string s2) ;
+```
+
+before the function where you call `recursiveIsAnagram`
+
+## I don't understand how to write tests for my code
+
+An example of what you might put inside the file testStrFuncs.cpp is something like this:
+
+```
+  ASSERT_EQUALS(true, isAnagram("cat","tar");
+  ASSERT_EQUALS(false, isAnagram("cat","rat");
+```
+
+You'll need to do a `#include "tddFuncs.h" and you'll need to be sure that the makefile has a rule to compile `tddFuncs.cpp` into `tddFuncs.o`
+
+
+You'll notice that inside of `tddFuncs.h` there are both these functions:
+
+```
+ASSERT_EQUALS(...)
+ASSERT_TRUE(...)
+```
+
+You may use either one!  For example, you could write:
+
+```
+ASSERT_EQUALS(true, isAnagram("cat","tar"));
+```
+
+OR:
+
+```
+ASSERT_TRUE(isAnagram("cat","tar"));
+```
+
+You will also note that there are two different versions of each function, one in upper case and one in lower case.
+
+For example:
+
+```
+void assertTrue(bool expression, std::string message="");
+```
+vs.
+
+```
+#define ASSERT_TRUE(expression) 
+```
+
+The `ALL_CAPS` versions are actually not functions, but something called *macros*.  They work similar to functions, but with a kind of "copy/paste" logic.   The easiest way to explain it is with an example.
+
+If you use the lower case version, you'd have to write something like this:
+
+```
+assertEquals(true, isAnagram("tar","rat"), "isAnagram(\"tar\",\"rat\")");
+```
+
+And that's really kind of inconvenient.  You see how you have to write the function call twice: once as a real function call, and a second time as a string.
+
+But, with the all caps version, you can just write:
+
+```
+ASSERT_EQUALS(true, isAnagram("tar","rat"));
+```
+
+and it will automatically convert it into the lowercase version!   This is done with the macro definition in tddFuncs.h:
+
+```
+
+#define ASSERT_EQUALS(expected,actual) assertEquals(expected,actual,#actual)
+```
+
+The syntax `#actual` is a special syntax that can only be used inside macro definitions; it turns regular code into a C++ string literal.  
+
+
