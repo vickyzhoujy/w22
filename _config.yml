@@ -50,11 +50,11 @@ cal_dates: >
     {"label":"MLK Day", "date":"2022-01-17" },
     {"label":"President's Day", "date":"2022-02-21" },
     {"label":"W22 instruction ends", "date":"2022-03-11" },
-    {"label":"W21 finals start", "date":"2022-03-12" },
-    {"label":"W21 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-02-03" },                      
-    {"label":"W21 CS16 FINAL (4pm-7pm)", "date":"2022-03-17" },                      
-    {"label":"W21 finals end", "date":"2022-03-10" },                          
-    {"label":"W21 qtr ends", "date":"2022-12-10" }                              
+    {"label":"W22 finals start", "date":"2022-03-12" },
+    {"label":"W22 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-02-03" },                      
+    {"label":"W22 CS16 FINAL (4pm-7pm)", "date":"2022-03-17" },                      
+    {"label":"W22 finals end", "date":"2022-03-18" },                          
+    {"label":"W22 qtr ends", "date":"2022-03-18" }                              
   ]
 
 
