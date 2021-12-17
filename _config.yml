@@ -16,29 +16,29 @@ include:
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs16.github.io
-baseurl: "/f21"
-github_url: https://github.com/ucsb-cs16/f21
+baseurl: "/w22"
+github_url: https://github.com/ucsb-cs16/w22
 
 title: "UCSB CS16"
 course: "CS16"
-qtr: "F21"
-quarter: "Fall 2021"
+qtr: "W22"
+quarter: "Winter 2022"
 
-ta_names: "April,Ashley,Avishek,Kevin,Lucas,Nawel,Satyam,and Shu"
-la_names: "Arthur,Connor,and Jerry"
-la_apprentice_names: "Cameron and Sydney"
-lab_times: "W: 1p,2p,3p,4p,5p,6p,7p,8p"
-instructor: "Phill Conrad"
-lecture_times: "TR - 2:00p-3:15p"
-lecture_location: "CHEM 1179"
-github_org: ucsb-cs16-f21
+ta_names: "TBA"
+la_names: "TBA"
+la_apprentice_names: "TBA"
+lab_times: "W: 1p,2p,3p,4p"
+instructor: "Zeyu Deng"
+lecture_times: "TR - 3:30p-4:45p"
+lecture_location: "Embarcadero Hall"
+github_org: ucsb-cs16-w22
 
 gauchospace: https://gauchospace.ucsb.edu
-campuswire: https://campuswire.com/c/G931DC7FE/feed
+campuswire: https://campuswire.com
 
-start_week: 0
-start_date: 2021-09-19 
-num_weeks: 11
+start_week: 1
+start_date: 2022-01-02 
+num_weeks: 10
 extra_exam_week: true
 lecture_days_of_week: TR
 
@@ -46,16 +46,15 @@ instructor_url: https://ucsb-cs16.github.io/instructor
 
 cal_dates: >
   [                                                                            
-    {"label":"F21 1st day of instruction", "date":"2021-09-23" },
-    {"label":"Veterans' Day", "date":"2021-11-11" },
-    {"label":"Thanksgiving", "date":"2021-11-25" },
-    {"label":"Thanksgiving", "date":"2021-11-26" },
-    {"label":"F21 instruction ends", "date":"2021-12-03" },
-    {"label":"F21 finals start", "date":"2021-12-04" },
-    {"label":"F21 CS16 MIDTERM (2pm-3:15pm)", "date":"2021-10-28" },                      
-    {"label":"F21 CS16 FINAL (4pm-7pm)", "date":"2021-12-07" },                      
-    {"label":"F21 finals end", "date":"2021-12-10" },                          
-    {"label":"F21 qtr ends", "date":"2021-12-10" }                              
+    {"label":"W22 1st day of instruction", "date":"2022-01-03" },
+    {"label":"MLK Day", "date":"2022-01-17" },
+    {"label":"President's Day", "date":"2022-02-21" },
+    {"label":"W22 instruction ends", "date":"2022-03-11" },
+    {"label":"W21 finals start", "date":"2022-03-12" },
+    {"label":"W21 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-02-03" },                      
+    {"label":"W21 CS16 FINAL (4pm-7pm)", "date":"2022-03-17" },                      
+    {"label":"W21 finals end", "date":"2022-03-10" },                          
+    {"label":"W21 qtr ends", "date":"2022-12-10" }                              
   ]
 
 
