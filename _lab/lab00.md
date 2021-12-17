@@ -1,7 +1,7 @@
 ---
 desc: Getting started
-assigned: 2021-09-29 13:00
-due: 2021-10-05 21:00
+assigned: 2022-01-05 13:00
+due: 2022-01-12 21:00
 layout: lab
 num: lab00
 ready: true
@@ -31,7 +31,7 @@ No!  Some weeks we'll ahve specific activities outside the zyBook that *only* ta
 
 Accordingly:
 * You should participate during your assigned discussion section time.  
-* You are encouraged to come in person if you can, but you may also participate over Zoom if you are unable to do so (e.g. due to quarantine, Covid symptoms, or other issues). We'll use the zoom link for office hours for this purpose: https://bit.ly/cs16-f21-office-hours
+* You are encouraged to come in person if you can, but you may also participate over Zoom if you are unable to do so (e.g. due to quarantine, Covid symptoms, or other issues). We'll use the zoom link for office hours for this purpose: https://bit.ly/cs16-w22-office-hours
 
 # Why you need to come to your assigned discussion section
 
@@ -49,7 +49,7 @@ Everything below this line is for TAs/LAs.  Students are welcome to read it&mdas
 
 2. Preparation: write  URL on the whiteboards around the room: 
    ```
-   CS16 09/29: Instructions are here: https://ucsb-cs16.github.io/f21/lab/lab00
+   CS16 01/05: Instructions are here: https://ucsb-cs16.github.io/w22/lab/lab00
    ```
    
    Then, on one of the whiteboards, write "Login Problems (put your name here)", underline it, and leave space for students to put a list of names.  This will be a place for students having login problems to list their names and form a queue so you can help them.
@@ -113,7 +113,7 @@ Everything below this line is for TAs/LAs.  Students are welcome to read it&mdas
 
    Announce: Please start to finish up, since we have a full room of students in the next section.  
    
-   (Or: if it's 8:50pm, announce: "In 5 mintues we need to start locking up the room so we can go home!")
+   (Or: if it's 4:50pm, announce: "In 5 mintues we need to start locking up the room so we can go home!")
  
 7. At 50 minutes after the hour, announce:  Please save your work, put away your things, and go get some fresh air so the next class has a place to work.
 
