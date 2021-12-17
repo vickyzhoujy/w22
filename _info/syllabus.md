@@ -32,7 +32,10 @@ Letter Grades:
 * To earn a grade of B+, you must have at least an B+ average overall, and **at least a C+ average in  each of the components**.
 * To earn a grade of B, you must have at least an B+ average overall, and **at least a C average in  each of the components**.
 * To earn a grade of B-, you must have at least an B- average overall, and **at least a C- average  each of the components**.
-* To earn a grade of C, C-, D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
+* To earn a grade of C+, you must have at least an C+ average overall, and **at least a D+ average  each of the components**.
+* To earn a grade of C, you must have at least an C average overall, and **at least a D average  each of the components**.
+* To earn a grade of C-, you must have at least an C average overall, and **at least a D- average  each of the components**.
+D+, D or D- you need only to have that letter grade average overall (no additional criteria apply).
 
 ## Grade assignment policy
 
@@ -76,7 +79,7 @@ Letter Grades:
 </table>
 
 <p><strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
-<p><strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)</p>
+<p><strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.  The instructor may also choose not to award any A+ grades.)</p>
 
 <p><strong><em>Everything</em> is cumulative—that's just how CS is.</strong></p>
 <p>Finally—note that just as in a math class, everything we do builds on all the work that came before. So, <em>everything</em> is <em>cumulative</em>—so, you can't afford to miss any classes unless absolutely necessary. Miss two lectures in a 10-week two-lecture per week course, and you've already skipped exactly 10% of the course&mdash;it wouldn't be surprising if your performance (i.e. final grade) in the course dipped by a similar amount.</p>
@@ -84,16 +87,16 @@ Letter Grades:
 
 # Schedule <a name="schedule"></a>
 
-For office hours please see [the Staff  Page](/f21/info/staff/).
+For office hours please see [the Staff  Page](/w22/info/staff/).
 
-For hw, lab and exam schedule, please check the [assignment calendar](/f21/info/calendar/).
+For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
 
 
 # Resources <a name="resources"></a>
 
 ## Required Resources
 
-The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00](https://ucsb-cs16.github.io/f21/hwk/h00/)
+The zyBook for this course is required.  Information on signing up was distributed via Gauchospace, and appears on Homework [H00](https://ucsb-cs16.github.io/w22/hwk/h00/)
 
 # What this course is about <a name="about"></a>
 
@@ -230,7 +233,7 @@ be comfortable with all of the following:</p>
         </ul>
   </li>
 
-<li><strong>(5) Exams</strong>&mdash;There are three exams in this course— two midterms and a final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
+<li><strong>(5) Exams</strong>&mdash;There are two exams in this course— one midterms and one final. No makeups will be given for the final exam. Please make sure that you have no conflicts with the final if you are taking this course.</li>
 
 
 
