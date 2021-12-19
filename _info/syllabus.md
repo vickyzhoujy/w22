@@ -103,6 +103,25 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 | date | description |
 | ---- | ----------- |
 | T 01/04 | First Lecture |
+| R 01/06 | C++ basic data types, binary, struct keyword |
+| T 01/11 | A bit more on structs and constructors |
+| R 01/13 | Fourth Lecture |
+| T 01/18 | Fifth Lecture |
+| R 01/20 | Functions |
+| T 01/25 | More on functions |
+| R 01/27 | argc/argv, C-strings, pointers, functions, reading from files |
+| T 02/01 | pointers, argc/argv, reading from files |
+| R 02/03 | Midterm Practice Questions |
+| T 02/08 | Midterm Exam |
+| R 02/10 | Intro to linked lists |
+| T 02/15 | More on linked lists |
+| R 02/17 | TBD (More on data structures) |
+| T 02/22 | git clone, Makefiles, separate compilation |
+| R 02/24 | git add/commit, more on separate compilation, linking |
+| T 03/01 | git push/pull; classes in C++ |
+| R 03/03 | Recursion |
+| T 03/08 | TBD |
+| R 03/10 | Final Exam Review |
 
 # Resources <a name="resources"></a>
 
