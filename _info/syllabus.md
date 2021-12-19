@@ -98,8 +98,11 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 
 ## Course TAs: TBD
 
-| date | description |
-| ---- | ----------- |
+<table border="2">
+  <tr>
+    <th> date </th> <th> description </th>
+  </tr>
+  
 | T 01/04 | First Lecture |
 | R 01/06 | C++ basic data types, binary, struct keyword |
 | T 01/11 | A bit more on structs and constructors |
@@ -120,6 +123,7 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 | R 03/03 | Recursion |
 | T 03/08 | TBD |
 | R 03/10 | Final Exam Review |
+</table>
 
 # Resources <a name="resources"></a>
 
