@@ -102,27 +102,66 @@ D+, D or D- you need only to have that letter grade average overall (no addition
   <tr>
     <th> date </th> <th> description </th>
   </tr>
-  
-| T 01/04 | First Lecture |
-| R 01/06 | C++ basic data types, binary, struct keyword |
-| T 01/11 | A bit more on structs and constructors |
-| R 01/13 | Fourth Lecture |
-| T 01/18 | Fifth Lecture |
-| R 01/20 | Functions |
-| T 01/25 | More on functions |
-| R 01/27 | argc/argv, C-strings, pointers, functions, reading from files |
-| T 02/01 | pointers, argc/argv, reading from files |
-| R 02/03 | Midterm Practice Questions |
-| T 02/08 | Midterm Exam |
-| R 02/10 | Intro to linked lists |
-| T 02/15 | More on linked lists |
-| R 02/17 | TBD (More on data structures) |
-| T 02/22 | git clone, Makefiles, separate compilation |
-| R 02/24 | git add/commit, more on separate compilation, linking |
-| T 03/01 | git push/pull; classes in C++ |
-| R 03/03 | Recursion |
-| T 03/08 | TBD |
-| R 03/10 | Final Exam Review |
+  <tr>
+    <td> T 01/04 </td> <td> First Lecture </td>
+  </tr>
+  <tr>
+    <td> R 01/06 </td> <td> C++ basic data types, binary, struct keyword </td>
+  </tr>
+  <tr>
+    <td> T 01/11 </td> <td> A bit more on structs and constructors </td>
+  </tr>
+  <tr>
+    <td> R 01/13 </td> <td> Fourth Lecture </td>
+  </tr>
+  <tr>
+    <td> T 01/18 </td> <td> Fifth Lecture </td>
+  </tr>
+  <tr>
+    <td> R 01/20 </td> <td> Functions </td>
+  </tr>
+  <tr>
+    <td> T 01/25 </td> <td> More on functions </td>
+  </tr>
+  <tr>
+    <td> R 01/27 </td> <td> argc/argv, C-strings, pointers, functions, reading from files </td>
+  </tr>
+  <tr>
+    <td> T 02/01 </td> <td> pointers, argc/argv, reading from files </td>
+  </tr>
+  <tr>
+    <td> R 02/03 </td> <td> Midterm Practice Questions </td>
+  </tr>
+  <tr>
+    <td> T 02/08 </td> <td> Midterm Exam </td>
+  </tr>
+  <tr>
+    <td> R 02/10 </td> <td> Intro to linked lists </td>
+  </tr>
+  <tr>
+    <td> T 02/15 </td> <td> More on linked lists </td>
+  </tr>
+  <tr>
+    <td> R 02/17 </td> <td> TBD (More on data structures) </td>
+  </tr>
+  <tr>
+    <td> T 02/22 </td> <td> git clone, Makefiles, separate compilation </td>
+  </tr>
+  <tr>
+    <td> R 02/24 </td> <td> git add/commit, more on separate compilation, linking </td>
+  </tr>
+  <tr>
+    <td> T 03/01 </td> <td> git push/pull; classes in C++ </td>
+  </tr>
+  <tr>
+    <td> R 03/03 </td> <td> Recursion </td>
+  </tr>
+  <tr>
+    <td> T 03/08 </td> <td> TBD </td>
+  </tr>
+  <tr>
+    <td> R 03/10 </td> <td> Final Exam Review </td>
+  </tr>
 </table>
 
 # Resources <a name="resources"></a>
