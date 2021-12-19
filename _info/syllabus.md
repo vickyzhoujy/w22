@@ -87,9 +87,9 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 
 # Schedule <a name="schedule"></a>
 
-; For office hours please see [the Staff  Page](/w22/info/staff/).
+[//]: For office hours please see [the Staff  Page](/w22/info/staff/).
 
-; For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
+[//]: For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
 
 
 # Resources <a name="resources"></a>
