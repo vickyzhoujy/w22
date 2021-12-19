@@ -93,6 +93,16 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 [^_^]: 
     For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
 
+## Course instructor: Zeyu Deng
+
+* Email: zdeng@ucsb.edu (Please put 'CS16' in the subject line)
+* Office hours: TBD
+
+## Course TAs: TBD
+
+| date | description |
+| ---- | ----------- |
+| T 01/04 | First Lecture |
 
 # Resources <a name="resources"></a>
 
