@@ -87,11 +87,11 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 
 # Schedule <a name="schedule"></a>
 
-[^_^]: 
-    For office hours please see [the Staff  Page](/w22/info/staff/).
+<div style='display: none'>
+For office hours please see [the Staff  Page](/w22/info/staff/).
 
-[^_^]: 
-    For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
+For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
+</div>
 
 ## Course instructor: Zeyu Deng
 
