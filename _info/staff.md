@@ -14,7 +14,7 @@ ready: true
 # Office Hours
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/14zQsfpM1suCtp5hxk1VvpN-nb-wzRLsY4IUlR02VZIg/edit?usp=sharing"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQaXXFzFDeTAb4D-I0y8SBMUKJcTMZQHG78kaQ8DqsxsnMg4IPuutC0837auu9mpDYY_U04WWrGWPj4/pubhtml?gid=0&single=true"></iframe>
 
 
 # Course Staff<a name="staff"></a>
