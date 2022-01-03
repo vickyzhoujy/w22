@@ -93,7 +93,7 @@ Office Hours: TBD
 </pre>
 
 ### Vicky Zhou
-* Email: jingyizhou@umail.ucsb.edu
+* Email: jingyizhou@ucsb.edu
 <pre>
 Office Hours: TBD
 </pre>
