@@ -4,7 +4,7 @@ layout: default
 ready: true
 ---
 
-Online Office Hours for CS16 F21 are held here: <https://bit.ly/cs16-f21-office-hours>
+[//]: ( Online Office Hours for CS16 F21 are held here: <https://bit.ly/cs16-f21-office-hours> )
 
 <style>
  iframe { width: 100%; height: 550px; }
@@ -13,10 +13,8 @@ Online Office Hours for CS16 F21 are held here: <https://bit.ly/cs16-f21-office-
 
 # Office Hours
 
-So, for the weeks of 09/23-09/25, and 09/26-10/02, office hours will be online; watch for announcements.
 
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTM1dLqCdZP8OmtsbsqgePxjGU0xE_Fvu_2S54pd9LiyxgtrrJA6VGal_gSrPx6rWE_vgS5fcoqItOj/pubhtml?gid=993902465&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/14zQsfpM1suCtp5hxk1VvpN-nb-wzRLsY4IUlR02VZIg/edit?usp=sharing"></iframe>
 
 
 # Course Staff<a name="staff"></a>
