@@ -87,17 +87,19 @@ D+, D or D- you need only to have that letter grade average overall (no addition
 
 # Schedule <a name="schedule"></a>
 
-[//]: # (For office hours please see [the Staff  Page](/w22/info/staff/).)
+For office hours please see [the Staff  Page](/w22/info/staff/).
 
-[//]: # (For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).)
+For hw, lab and exam schedule, please check the [assignment calendar](/w22/info/calendar/).
 
 ## Course instructor: Zeyu Deng
 
 * Email: zdeng@ucsb.edu (Please put 'CS16' in the subject line)
+* Lectures: Tue&Thu 3:30 - 4:45pm
 * Office hours: TBD
 
 ## Course TAs: TBD
 
+## Course Plans (possible adjustment may be applied):
 <table border="2">
   <tr>
     <th> date </th> <th> description </th>
